@@ -147,7 +147,7 @@ backdrop-filter: blur(5px);
             background-color: #454752;
         }
         .ID{
-            position: fixed;
+            position: absolute;
             width: auto;
             margin: 2%;
             font-size: small;
