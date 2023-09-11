@@ -950,7 +950,7 @@ export const Datos = [
     id: 87,
     Nombre: "Canguro NikeAir",
     Precio: "1.790",
-    Img: "/Images/CanguroAir2.jpg",
+    Img: "/Images/CanguroNikeAir2.jpg",
     Color: "",
     ColorSecundario: "",
     Detalle: "",
