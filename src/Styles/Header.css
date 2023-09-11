@@ -1,0 +1,64 @@
+.HeaderGeneral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.assideHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bHeader {
+    text-align: left;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+    transition: 0.1s;
+}
+
+.bHeader:hover {
+    color: rgb(255, 0, 0);
+}
+
+.titulo {
+    width: 180px;
+    height: 210px;
+}
+@media only screen and (max-width: 600px) {
+    .HeaderGeneral {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    
+    .assideHeader {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .bHeader {
+        text-align: left;
+        background: none;
+        border: none;
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        font-weight: lighter;
+        transition: 0.1s;
+    }
+    
+    .bHeader:hover {
+        color: rgb(255, 0, 0);
+    }
+    
+    .titulo {
+        width: 200px;
+        height: 230px;
+    }
+  }
