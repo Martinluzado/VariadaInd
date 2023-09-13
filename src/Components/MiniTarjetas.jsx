@@ -28,7 +28,7 @@ function MiniTarjetas({ texto, infoRopa }) {
       <div className="General">
      {/* Botones de selección de categoría */}
      <div>
-            <label className="Label" htmlFor="categoria" style={{color:"white"}}>CATEGORIA</label>
+            <label className="Label" htmlFor="categoria" style={{color:"white"}}></label>
             <select
               id="categoria"
               onChange={(e) => setCategoriaSeleccionada(e.target.value)}

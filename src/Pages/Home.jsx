@@ -20,10 +20,10 @@ function Home() {
             autoFocus
             className='Imputheader'
             type='text' 
-            placeholder='🔍︎'
+            placeholder='Buscar'
             onChange={manejarInput}
           />
-        </div> *
+        </div>
       </nav>
       <div>
         <MiniTarjetas texto={texto} infoRopa={infoRopa} />
