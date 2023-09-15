@@ -17,7 +17,7 @@ function Home() {
       <nav>
          <div className='PascalSearch'>
           <input
-            autoFocus="none"
+            autoFocus='none'
             className='Imputheader'
             type='text' 
             placeholder='Buscar'
