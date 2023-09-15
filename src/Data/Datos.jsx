@@ -1,7 +1,7 @@
 export const Datos = [
   {
     id: 1,
-    Nombre: "Camperas Tech",
+    Nombre: "Camperas Tech Nike v1",
     Precio: "1.190",
     Img: "/Images/CamperaTech.jpg",
     Color: "blue",
@@ -12,7 +12,7 @@ export const Datos = [
   },
   {
     id: 2,
-    Nombre: "Camperas Tech",
+    Nombre: "Camperas Tech v2",
     Precio: "1.190",
     Img: "/Images/CamperaTech2.jpg",
     Color: "blue",
@@ -23,7 +23,7 @@ export const Datos = [
   },
   {
     id: 3,
-    Nombre: "Conjuntos Nike Tech",
+    Nombre: "Conjuntos Nike Tech v1",
     Precio: "2.090",
     Img: "/Images/ConjuntoNikeTech.jpg",
     Color: "gray",
@@ -34,7 +34,7 @@ export const Datos = [
   },
   {
     id: 4,
-    Nombre: "Conjuntos Nike Tech",
+    Nombre: "Conjuntos Nike Tech v2",
     Precio: "2.090",
     Img: "/Images/ConjuntoNikeTech2.jpg",
     Color: "black",
@@ -45,7 +45,7 @@ export const Datos = [
   },
   {
     id: 5,
-    Nombre: "Shorts Jordan",
+    Nombre: "Shorts Jordan v1",
     Precio: "1.390",
     Img: "/Images/ShortJordan.jpg",
     Color: "red",
@@ -56,7 +56,7 @@ export const Datos = [
   },
   {
     id: 6,
-    Nombre: "Remeras Plus Size",
+    Nombre: "Remeras Plus Size v1",
     Precio: "1.090",
     Img: "/Images/RemeraPlus1.jpg",
     Color: "Green",
@@ -67,7 +67,7 @@ export const Datos = [
   },
   {
     id: 7,
-    Nombre: "Remeras Plus Size",
+    Nombre: "Remeras Plus Size v2",
     Precio: "1.090",
     Img: "/Images/RemeraPlus2.jpg",
     Color: "Blue",
@@ -78,7 +78,7 @@ export const Datos = [
   },
   {
     id: 8,
-    Nombre: "Remeras Plus Size",
+    Nombre: "Remeras Plus Size v3",
     Precio: "1.090",
     Img: "/Images/RemeraPlus3.jpg",
     Color: "Black",
@@ -89,7 +89,7 @@ export const Datos = [
   },
   {
     id: 9,
-    Nombre: "Remeras Plus Size",
+    Nombre: "Remeras Plus Size v4",
     Precio: "1.090",
     Img: "/Images/RemeraPlus4.jpg",
     Color: "Skyblue",
@@ -100,7 +100,7 @@ export const Datos = [
   },
   {
     id: 10,
-    Nombre: "Remeras Nike Combinada",
+    Nombre: "Remeras Nike Combinada v1",
     Precio: "790",
     Img: "/Images/RemeraNikeCombinada.jpg",
     Color: "red",
@@ -111,7 +111,7 @@ export const Datos = [
   },
   {
     id: 11,
-    Nombre: "Remeras Nike Combinada",
+    Nombre: "Remeras Nike Combinada v2",
     Precio: "790",
     Img: "/Images/RemeraNikeCombinada2.jpg",
     Color: "skyblue",
@@ -122,7 +122,7 @@ export const Datos = [
   },
   {
     id: 12,
-    Nombre: "Remeras Adidas Niños",
+    Nombre: "Remeras Adidas Niños v1",
     Precio: "490",
     Img: "/Images/RemeraNiñoAdidas.jpg",
     Color: "red",
@@ -133,7 +133,7 @@ export const Datos = [
   },
   {
     id: 13,
-    Nombre: "Remeras Adidas Niños",
+    Nombre: "Remeras Adidas Niños v2",
     Precio: "490",
     Img: "/Images/RemeraNiñoAdidas2.jpg",
     Color: "green",
@@ -144,7 +144,7 @@ export const Datos = [
   },
   {
     id: 14,
-    Nombre: "Remeras Adidas Niños",
+    Nombre: "Remeras Adidas Niños v3",
     Precio: "490",
     Img: "/Images/RemeraNiñoAdidas3.jpg",
     Color: "black",
@@ -155,7 +155,7 @@ export const Datos = [
   },
   {
     id: 15,
-    Nombre: "Remeras Adidas Niños",
+    Nombre: "Remeras Adidas Niños v4",
     Precio: "490",
     Img: "/Images/RemeraNiñoAdidas4.jpg",
     Color: "gray",
@@ -166,7 +166,7 @@ export const Datos = [
   },
   {
     id: 16,
-    Nombre: "Remeras Adidas Niños",
+    Nombre: "Remeras Adidas Niños v5",
     Precio: "490",
     Img: "/Images/RemeraNiñoAdidas5.jpg",
     Color: "red",
@@ -177,7 +177,7 @@ export const Datos = [
   },
   {
     id: 17,
-    Nombre: "Conjuntos de Niño",
+    Nombre: "Conjuntos de Niño v1",
     Precio: "490",
     Img: "/Images/ConjuntoNiño.jpg",
     Color: "black",
@@ -188,7 +188,7 @@ export const Datos = [
   },
   {
     id: 18,
-    Nombre: "Conjuntos de Niño",
+    Nombre: "Conjuntos de Niño v2",
     Precio: "490",
     Img: "/Images/ConjuntoNiño2.jpg",
     Color: "black",
@@ -199,7 +199,7 @@ export const Datos = [
   },
   {
     id: 19,
-    Nombre: "Conjuntos de Niño",
+    Nombre: "Conjuntos de Niño v3",
     Precio: "490",
     Img: "/Images/ConjuntoNiño3.jpg",
     Color: "red",
@@ -210,7 +210,7 @@ export const Datos = [
   },
   {
     id: 20,
-    Nombre: "Conjuntos de Niño",
+    Nombre: "Conjuntos de Niño v4",
     Precio: "490",
     Img: "/Images/ConjuntoNiño4.jpg",
     Color: "black",
@@ -222,7 +222,7 @@ export const Datos = [
 
   {
     id: 21,
-    Nombre: "Conjuntos de Niño",
+    Nombre: "Conjuntos de Niño v5",
     Precio: "490",
     Img: "/Images/ConjuntoNiño5.jpg",
     Color: "red",
@@ -233,7 +233,7 @@ export const Datos = [
   },
   {
     id: 22,
-    Nombre: "Pantalones Nike Calidad Original",
+    Nombre: "Pantalones Nike Calidad Original v1",
     Precio: "1.690",
     Img: "/Images/PantalonNikeCalidadOriginal.jpg",
     Color: "white",
@@ -244,7 +244,7 @@ export const Datos = [
   },
   {
     id: 23,
-    Nombre: "Pantalones Nike Calidad Original",
+    Nombre: "Pantalones Nike Calidad Original v2",
     Precio: "1.690",
     Img: "/Images/PantalonNikeCalidadOriginal2.jpg",
     Color: "white",
@@ -255,7 +255,7 @@ export const Datos = [
   },
   {
     id: 24,
-    Nombre: "Pantalones Adidas",
+    Nombre: "Pantalones Adidas v1",
     Precio: "590",
     Img: "/Images/PantalonAdidas.jpg",
     Color: "white",
@@ -266,7 +266,7 @@ export const Datos = [
   },
   {
     id: 25,
-    Nombre: "Camperas Adidas",
+    Nombre: "Camperas Adidas v1",
     Precio: "690",
     Img: "/Images/CamperaAdidas.jpg",
     Color: "white",
@@ -277,7 +277,7 @@ export const Datos = [
   },
   {
     id: 26,
-    Nombre: "Camperas Jean",
+    Nombre: "Camperas Jean v1",
     Precio: "1.590",
     Img: "/Images/CamperaJean1.jpg",
     Color: "black",
@@ -288,7 +288,7 @@ export const Datos = [
   },
   {
     id: 27,
-    Nombre: "Camperas Gabardina",
+    Nombre: "Camperas Gabardina v1",
     Precio: "1.390",
     Img: "/Images/CamperaGabardina.jpg",
     Color: "black",
@@ -299,7 +299,7 @@ export const Datos = [
   },
   {
     id: 28,
-    Nombre: "Camperas Jean",
+    Nombre: "Camperas Jean v2",
     Precio: "1.390",
     Img: "/Images/CamperaJean2.jpg",
     Color: "black",
@@ -310,7 +310,7 @@ export const Datos = [
   },
   {
     id: 29,
-    Nombre: "Remeras Nike -hombre-",
+    Nombre: "Remeras Nike -hombre- v1",
     Precio: "520",
     Img: "/Images/RemeraNikeHombre.jpg",
     Color: "wheat",
@@ -321,7 +321,7 @@ export const Datos = [
   },
   {
     id: 30,
-    Nombre: "Remeras Adidas -hombre-",
+    Nombre: "Remeras Adidas -hombre- v1",
     Precio: "520",
     Img: "/Images/RemeraAdidasHombre.jpg",
     Color: "oranged",
@@ -332,7 +332,7 @@ export const Datos = [
   },
   {
     id: 31,
-    Nombre: "Remeras Adidas -hombre-",
+    Nombre: "Remeras Adidas -hombre- v2",
     Precio: "520",
     Img: "/Images/RemeraAdidasHombre2.jpg",
     Color: "red",
@@ -343,7 +343,7 @@ export const Datos = [
   },
   {
     id: 32,
-    Nombre: "Remeras Adidas",
+    Nombre: "Remeras Adidas v1",
     Precio: "520",
     Img: "/Images/RemeraAdidasCeleste.jpg",
     Color: "skyblue",
@@ -354,7 +354,7 @@ export const Datos = [
   },
   {
     id: 33,
-    Nombre: "Remeras Adidas",
+    Nombre: "Remeras Adidas v1",
     Precio: "520",
     Img: "/Images/RemeraAdidas.jpg",
     Color: "wheat",
@@ -365,7 +365,7 @@ export const Datos = [
   },
   {
     id: 34,
-    Nombre: "Remeras Adidas",
+    Nombre: "Remeras Adidas v2",
     Precio: "520",
     Img: "/Images/RemeraAdidas2.jpg",
     Color: "red",
@@ -376,7 +376,7 @@ export const Datos = [
   },
   {
     id: 35,
-    Nombre: "Remeras Nike",
+    Nombre: "Remeras Nike v1",
     Precio: "520",
     Img: "/Images/RemeraNike.jpg",
     Color: "darkblue",
@@ -398,7 +398,7 @@ export const Datos = [
   // },
   {
     id: 37,
-    Nombre: "Buzos  Adidas Rosa Unisex",
+    Nombre: "Buzos  Adidas Rosa Unisex v1",
     Precio: "1.190",
     Img: "/Images/BuzoAdidasRosaUnisex.jpg",
     Color: "pink",
@@ -409,7 +409,7 @@ export const Datos = [
   },
   {
     id: 38,
-    Nombre: "Buzos Adidas Azul Unisex",
+    Nombre: "Buzos Adidas Azul Unisex v1",
     Precio: "1.190",
     Img: "/Images/BuzoAdidasAzulUnisex.jpg",
     Color: "blue",
@@ -420,7 +420,7 @@ export const Datos = [
   },
   {
     id: 39,
-    Nombre: "Remeras Adidas -Dama-",
+    Nombre: "Remeras Adidas -Dama- v1",
     Precio: "520",
     Img: "/Images/RemeraAdidasDama.jpg",
     Color: "gray",
@@ -431,7 +431,7 @@ export const Datos = [
   },
   {
     id: 40,
-    Nombre: "Remeras Nike -Dama-",
+    Nombre: "Remeras Nike -Dama- v1",
     Precio: "520",
     Img: "/Images/RemeraNikeDama.jpg",
     Color: "gray",
@@ -442,7 +442,7 @@ export const Datos = [
   },
   {
     id: 41,
-    Nombre: "Remeras Nike -Dama-",
+    Nombre: "Remeras Nike -Dama- v2",
     Precio: "520",
     Img: "/Images/RemeraNikeDama2.jpg",
     Color: "pink",
@@ -453,7 +453,7 @@ export const Datos = [
   },
   {
     id: 42,
-    Nombre: "Remeras Adidas -Dama-",
+    Nombre: "Remeras Adidas -Dama- v2",
     Precio: "520",
     Img: "/Images/RemeraAdidasDama2.jpg",
     Color: "Fucsia",
@@ -464,7 +464,7 @@ export const Datos = [
   },
   {
     id: 43,
-    Nombre: "Buzos Adidas",
+    Nombre: "Buzos Adidas v1",
     Precio: "1.190",
     Img: "/Images/BuzoAdidasAzul.jpg",
     Color: "blue",
@@ -475,7 +475,7 @@ export const Datos = [
   },
   {
     id: 44,
-    Nombre: "Buzos Adidas",
+    Nombre: "Buzos Adidas v1",
     Precio: "1.190",
     Img: "/Images/BuzoAdidasNegro.jpg",
     Color: "Black",
@@ -486,7 +486,7 @@ export const Datos = [
   },
   {
     id: 45,
-    Nombre: "Buzos Nike Dama",
+    Nombre: "Buzos Nike Dama v1",
     Precio: "890",
     Img: "/Images/BuzoNikeDama.jpg",
     Color: "",
@@ -497,7 +497,7 @@ export const Datos = [
   },
   {
     id: 46,
-    Nombre: "Remeras Oversize",
+    Nombre: "Remeras Oversize v1",
     Precio: "590",
     Img: "/Images/RemeraOversize.jpg",
     Color: "",
@@ -508,7 +508,7 @@ export const Datos = [
   },
   {
     id: 47,
-    Nombre: "Remeras Oversize",
+    Nombre: "Remeras Oversize v2",
     Precio: "590",
     Img: "/Images/RemeraOversize2.jpg",
     Color: "black",
@@ -519,7 +519,7 @@ export const Datos = [
   },
   {
     id: 48,
-    Nombre: "Remeras Oversize",
+    Nombre: "Remeras Oversize v3",
     Precio: "590",
     Img: "/Images/RemeraOversize3.jpg",
     Color: "black",
@@ -530,7 +530,7 @@ export const Datos = [
   },
   {
     id: 49,
-    Nombre: "Remeras Oversize",
+    Nombre: "Remeras Oversize v4",
     Precio: "590",
     Img: "/Images/RemeraOversize4.jpg",
     Color: "black",
@@ -541,7 +541,7 @@ export const Datos = [
   },
   {
     id: 50,
-    Nombre: "Remeras Oversize",
+    Nombre: "Remeras Oversize v5",
     Precio: "590",
     Img: "/Images/RemeraOversize5.jpg",
     Color: "black",
@@ -552,7 +552,7 @@ export const Datos = [
   },
   {
     id: 51,
-    Nombre: "Remeras Oversize",
+    Nombre: "Remeras Oversize v6",
     Precio: "590",
     Img: "/Images/RemeraOversize6.jpg",
     Color: "black",
@@ -563,7 +563,7 @@ export const Datos = [
   },
   {
     id: 52,
-    Nombre: "Remeras Oversize",
+    Nombre: "Remeras Oversize v7",
     Precio: "590",
     Img: "/Images/RemeraOversize7.jpg",
     Color: "black",
@@ -574,7 +574,7 @@ export const Datos = [
   },
   {
     id: 53,
-    Nombre: "Remeras Oversize",
+    Nombre: "Remeras Oversize v8",
     Precio: "590",
     Img: "/Images/RemeraOversize8.jpg",
     Color: "wheat",
@@ -585,7 +585,7 @@ export const Datos = [
   },
   {
     id: 54,
-    Nombre: "Buzos Hombre",
+    Nombre: "Buzos Hombre v1",
     Precio: "990",
     Img: "/Images/BuzoHombre.jpg",
     Color: " ",
@@ -596,7 +596,7 @@ export const Datos = [
   },
   {
     id: 55,
-    Nombre: "Remeras Adidas -Dama-",
+    Nombre: "Remeras Adidas -Dama- v3",
     Precio: "520",
     Img: "/Images/RemeraAdidasDama3.jpg",
     Color: "black",
@@ -607,7 +607,7 @@ export const Datos = [
   },
   {
     id: 56,
-    Nombre: "Remeras Adidas -Dama-",
+    Nombre: "Remeras Adidas -Dama- v4",
     Precio: "520",
     Img: "/Images/RemeraAdidasDama4.jpg",
     Color: "skyblue",
@@ -618,7 +618,7 @@ export const Datos = [
   },
   {
     id: 57,
-    Nombre: "Remeras Oversize",
+    Nombre: "Remeras Oversize v9",
     Precio: "520",
     Img: "/Images/RemeraOversize9.jpg",
     Color: "white",
@@ -629,7 +629,7 @@ export const Datos = [
   },
   {
     id: 58,
-    Nombre: "Camperas Jean",
+    Nombre: "Camperas Jean v3",
     Precio: "1.890",
     Img: "/Images/CamperaJean3.jpg",
     Color: "dark",
@@ -640,7 +640,7 @@ export const Datos = [
   },
   {
     id: 59,
-    Nombre: "Camperas Bomber",
+    Nombre: "Camperas Bomber v1",
     Precio: "1.290",
     Img: "/Images/CamperaBomber.jpg",
     Color: "dark",
@@ -651,7 +651,7 @@ export const Datos = [
   },
   {
     id: 60,
-    Nombre: "Remeras Nike",
+    Nombre: "Remeras Nike v2",
     Precio: "520",
     Img: "/Images/RemeraNike2.jpg",
     Color: "yellow",
@@ -662,7 +662,7 @@ export const Datos = [
   },
   {
     id: 61,
-    Nombre: "Remeras Jordan",
+    Nombre: "Remeras Jordan v1",
     Precio: "520",
     Img: "/Images/RemeraJordan.jpg",
     Color: "pink",
@@ -673,7 +673,7 @@ export const Datos = [
   },
   {
     id: 62,
-    Nombre: "Remeras Nike",
+    Nombre: "Remeras Nike v3",
     Precio: "520",
     Img: "/Images/RemeraNike3.jpg",
     Color: "blue",
@@ -684,7 +684,7 @@ export const Datos = [
   },
   {
     id: 63,
-    Nombre: "Remeras Nike",
+    Nombre: "Remeras Nike v4",
     Precio: "520",
     Img: "/Images/RemeraNike4.jpg",
     Color: "violet",
@@ -695,7 +695,7 @@ export const Datos = [
   },
   {
     id: 64,
-    Nombre: "Remeras Nike",
+    Nombre: "Remeras Nike v5",
     Precio: "520",
     Img: "/Images/RemeraNike5.jpg",
     Color: "white",
@@ -706,7 +706,7 @@ export const Datos = [
   },
   {
     id: 65,
-    Nombre: "Remeras Nike",
+    Nombre: "Remeras Nike v6",
     Precio: "520",
     Img: "/Images/RemeraNike6.jpg",
     Color: "white",
@@ -717,7 +717,7 @@ export const Datos = [
   },
   {
     id: 66,
-    Nombre: "Remeras TheNortFace",
+    Nombre: "Remeras TheNortFace v1",
     Precio: "520",
     Img: "/Images/RemeraNort.jpg",
     Color: "dark",
@@ -728,7 +728,7 @@ export const Datos = [
   },
   {
     id: 67,
-    Nombre: "Remeras Barbie",
+    Nombre: "Remeras Barbie v1",
     Precio: "colocar precio",
     Img: "/Images/RemeraBarbie.jpg",
     Color: "pink",
@@ -739,7 +739,7 @@ export const Datos = [
   },
   {
     id: 68,
-    Nombre: "Remeras Rock Star",
+    Nombre: "Remeras Rock Star v1",
     Precio: "colocar precio",
     Img: "/Images/RemeraRockStar.jpg",
     Color: "",
@@ -750,7 +750,7 @@ export const Datos = [
   },
   {
     id: 69,
-    Nombre: "Remeras Brillo",
+    Nombre: "Remeras Brillo v1",
     Precio: "colocar precio",
     Img: "/Images/RemeraBrillo.jpg",
     Color: "",
@@ -761,7 +761,7 @@ export const Datos = [
   },
   {
     id: 70,
-    Nombre: "Pantalones Babucha",
+    Nombre: "Pantalones Babucha v1",
     Precio: "590",
     Img: "/Images/Babucha.jpg",
     Color: "",
@@ -772,7 +772,7 @@ export const Datos = [
   },
   {
     id: 71,
-    Nombre: "Pantalones Babucha",
+    Nombre: "Pantalones Babucha v2",
     Precio: "590",
     Img: "/Images/Babucha2.jpg",
     Color: "",
@@ -783,7 +783,7 @@ export const Datos = [
   },
   {
     id: 72,
-    Nombre: "Remeras GirlPower",
+    Nombre: "Remeras GirlPower v1",
     Precio: "Colocar precio",
     Img: "/Images/RemeraGirl.jpg",
     Color: "",
@@ -794,7 +794,7 @@ export const Datos = [
   },
   {
     id: 73,
-    Nombre: "Remeras GirlPower",
+    Nombre: "Remeras GirlPower v2",
     Precio: "Colocar precio",
     Img: "/Images/RemeraBarbie2.jpg",
     Color: "pink",
@@ -805,7 +805,7 @@ export const Datos = [
   },
   {
     id: 74,
-    Nombre: "Remeras GirlPower",
+    Nombre: "Remeras GirlPower v3" ,
     Precio: "Colocar precio",
     Img: "/Images/RemeraBarbie3.jpg",
     Color: "black",
@@ -816,7 +816,7 @@ export const Datos = [
   },
   {
     id: 75,
-    Nombre: "Pantalones Nike Cargo",
+    Nombre: "Pantalones Nike Cargo v1",
     Precio: "1.290",
     Img: "/Images/PantalonNikeCargo.jpg",
     Color: "black",
@@ -827,7 +827,7 @@ export const Datos = [
   },
   {
     id: 76,
-    Nombre: "Pantalones Nike",
+    Nombre: "Pantalones Nike v3",
     Precio: "1.690",
     Img: "/Images/PantalonNikeCalidadOriginal3.jpg",
     Color: "white",
@@ -838,7 +838,7 @@ export const Datos = [
   },
   {
     id: 77,
-    Nombre: "Canguros Adidas",
+    Nombre: "Canguros Adidas v1",
     Precio: "1.790",
     Img: "/Images/CanguroAdidas.jpg",
     Color: "gray",
@@ -849,7 +849,7 @@ export const Datos = [
   },
   {
     id: 78,
-    Nombre: "Pantalones Nike",
+    Nombre: "Pantalones Nike v4",
     Precio: "1.690",
     Img: "/Images/PantalonNikeCalidadOriginal4.jpg",
     Color: "",
@@ -860,7 +860,7 @@ export const Datos = [
   },
   {
     id: 79,
-    Nombre: "Canguros NikeAir",
+    Nombre: "Canguros NikeAir v1",
     Precio: "1.790",
     Img: "/Images/CanguroNikeAir.jpg",
     Color: "",
@@ -871,7 +871,7 @@ export const Datos = [
   },
   {
     id: 80,
-    Nombre: "Jeans Hombre",
+    Nombre: "Jeans Hombre v1 ",
     Precio: "1.390",
     Img: "/Images/JeanHombre.jpg",
     Color: "",
@@ -882,7 +882,7 @@ export const Datos = [
   },
   {
     id: 81,
-    Nombre: "Jeans Hombre",
+    Nombre: "Jeans Hombre v2",
     Precio: "1.390",
     Img: "/Images/JeanHombre2.jpg",
     Color: "",
@@ -893,7 +893,7 @@ export const Datos = [
   },
   {
     id: 82,
-    Nombre: "Jeans Hombre",
+    Nombre: "Jeans Hombre v3",
     Precio: "1.390",
     Img: "/Images/JeanHombre3.jpg",
     Color: "",
@@ -904,7 +904,7 @@ export const Datos = [
   },
   {
     id: 83,
-    Nombre: "Jeans Hombre",
+    Nombre: "Jeans Hombre v4",
     Precio: "1.390",
     Img: "/Images/JeanHombre4.jpg",
     Color: "",
@@ -915,7 +915,7 @@ export const Datos = [
   },
   {
     id: 84,
-    Nombre: "Jeans Hombre",
+    Nombre: "Jeans Hombre v6",
     Precio: "1.390",
     Img: "/Images/JeanHombre6.jpg",
     Color: "",
@@ -926,7 +926,7 @@ export const Datos = [
   },
   {
     id: 85,
-    Nombre: "Jeans Hombre",
+    Nombre: "Jeans Hombre v7",
     Precio: "1.390",
     Img: "/Images/JeanHombre7.jpg",
     Color: "",
@@ -937,7 +937,7 @@ export const Datos = [
   },
   {
     id: 86,
-    Nombre: "Pantalones Nike",
+    Nombre: "Pantalones Nike v5",
     Precio: "ColocarPrecio",
     Img: "/Images/PantalonNikeCalidadOriginal5.jpg",
     Color: "",
@@ -948,7 +948,7 @@ export const Datos = [
   },
   {
     id: 87,
-    Nombre: "Canguros NikeAir",
+    Nombre: "Canguros NikeAir v2",
     Precio: "1.790",
     Img: "/Images/CanguroNikeAir2.jpg",
     Color: "",
@@ -959,7 +959,7 @@ export const Datos = [
   },
   {
     id: 88,
-    Nombre: "Canguros Adidas",
+    Nombre: "Canguros Adidas v2",
     Precio: "1.790",
     Img: "/Images/CanguroAdidas2.jpg",
     Color: "",
@@ -970,7 +970,7 @@ export const Datos = [
   },
   {
     id: 89,
-    Nombre: "Canguros Adidas",
+    Nombre: "Canguros Adidas v3",
     Precio: "1.790",
     Img: "/Images/CanguroAdidas3.jpg",
     Color: "",
@@ -981,7 +981,7 @@ export const Datos = [
   },
   {
     id: 90,
-    Nombre: "Conjuntos Dama",
+    Nombre: "Conjuntos Dama v1",
     Precio: "1.090",
     Img: "/Images/ConjuntoDama.jpg",
     Color: "",
@@ -992,7 +992,7 @@ export const Datos = [
   },
   {
     id: 91,
-    Nombre: "Pantalones Adidas Dama",
+    Nombre: "Pantalones Adidas Dama v1",
     Precio: "Preciooooo",
     Img: "/Images/PantalonAdidasDama.jpg",
     Color: "",
@@ -1003,7 +1003,7 @@ export const Datos = [
   },
   {
     id: 92,
-    Nombre: "Conjuntos Dama",
+    Nombre: "Conjuntos Dama v2",
     Precio: "1.090",
     Img: "/Images/ConjuntoDama2.jpg",
     Color: "",
@@ -1014,7 +1014,7 @@ export const Datos = [
   },
   {
     id: 92,
-    Nombre: "Buzos TheNortFace",
+    Nombre: "Buzos TheNortFace v1",
     Precio: "1.090",
     Img: "/Images/BuzoNortFace.jpg",
     Color: "",
@@ -1025,7 +1025,7 @@ export const Datos = [
   },
   {
     id: 93,
-    Nombre: "Buzos Levi`s",
+    Nombre: "Buzos Levi`s v1",
     Precio: "1.090",
     Img: "/Images/BuzoLevis.jpg",
     Color: "",
@@ -1036,7 +1036,7 @@ export const Datos = [
   },
   {
     id: 94,
-    Nombre: "Buzos Shoes",
+    Nombre: "Buzos Shoes v1",
     Precio: "1.090",
     Img: "/Images/BuzoShoes.jpg",
     Color: "",
@@ -1047,7 +1047,7 @@ export const Datos = [
   },
   {
     id: 95,
-    Nombre: "Sobres Camisas",
+    Nombre: "Sobres Camisas v1",
     Precio: "1.390",
     Img: "/Images/SobreCamisas.jpg",
     Color: "",
@@ -1058,7 +1058,7 @@ export const Datos = [
   },
   {
     id: 96,
-    Nombre: "Sobres Camisas",
+    Nombre: "Sobres Camisas v2",
     Precio: "1.390",
     Img: "/Images/SobreCamisas2.jpg",
     Color: "",
@@ -1069,7 +1069,7 @@ export const Datos = [
   },
   {
     id: 97,
-    Nombre: "Camperas Universitarias",
+    Nombre: "Camperas Universitarias v1",
     Precio: "1.090",
     Img: "/Images/CamperasUniv.jpg",
     Color: "",
@@ -1080,7 +1080,7 @@ export const Datos = [
   },
   {
     id: 98,
-    Nombre: "Camperas Universitarias",
+    Nombre: "Camperas Universitarias v2",
     Precio: "1.090",
     Img: "/Images/CamperasUniv2.jpg",
     Color: "",
@@ -1091,7 +1091,7 @@ export const Datos = [
   },
   {
     id: 99,
-    Nombre: "Camperas Universitarias",
+    Nombre: "Camperas Universitarias v3",
     Precio: "1.790",
     Img: "/Images/CamperasUniv3.jpg",
     Color: "",
@@ -1102,7 +1102,7 @@ export const Datos = [
   },
   {
     id: 100,
-    Nombre: "Sobres Camisas",
+    Nombre: "Sobres Camisas v3",
     Precio: "1.390",
     Img: "/Images/SobreCamisas3.jpg",
     Color: "",
@@ -1113,7 +1113,7 @@ export const Datos = [
   },
   {
     id: 101,
-    Nombre: "Remeras de Bebe",
+    Nombre: "Remeras de Bebe v1",
     Precio: "390",
     Img: "/Images/RemeraBebe.jpg",
     Color: "",
@@ -1124,7 +1124,7 @@ export const Datos = [
   },
   {
     id: 102,
-    Nombre: "Remeras de Bebe",
+    Nombre: "Remeras de Bebe v2",
     Precio: "390",
     Img: "/Images/RemeraBebe2.jpg",
     Color: "",
@@ -1135,7 +1135,7 @@ export const Datos = [
   },
   {
     id: 103,
-    Nombre: "Buzos de Niña",
+    Nombre: "Buzos de Niña v1",
     Precio: "280",
     Img: "/Images/BuzoNiña.jpg",
     Color: "",
@@ -1146,7 +1146,7 @@ export const Datos = [
   },
   {
     id: 104,
-    Nombre: "Remeras Niño",
+    Nombre: "Remeras Niño v6",
     Precio: "490",
     Img: "/Images/RemeraNiñoAdidas6.jpg",
     Color: "",
@@ -1157,7 +1157,7 @@ export const Datos = [
   },
   {
     id: 105,
-    Nombre: "Remeras Niño",
+    Nombre: "Remeras Niño v1",
     Precio: "490",
     Img: "/Images/RemeraNiñoJordan.jpg",
     Color: "",
@@ -1168,7 +1168,7 @@ export const Datos = [
   },
   {
     id: 106,
-    Nombre: "Remeras Niño",
+    Nombre: "Remeras Niño v2",
     Precio: "490",
     Img: "/Images/RemeraNiñoJordan2.jpg",
     Color: "",
@@ -1179,7 +1179,7 @@ export const Datos = [
   },
   {
     id: 107,
-    Nombre: "Remeras Niño",
+    Nombre: "Remeras Niño v7",
     Precio: "490",
     Img: "/Images/RemeraNiñoAdidas7.jpg",
     Color: "",
@@ -1190,7 +1190,7 @@ export const Datos = [
   },
   {
     id: 108,
-    Nombre: "Remeras Niño",
+    Nombre: "Remeras Niño v3",
     Precio: "490",
     Img: "/Images/RemeraNiñoJordan3.jpg",
     Color: "",
@@ -1201,7 +1201,7 @@ export const Datos = [
   },
   {
     id: 109,
-    Nombre: "Remeras Niño",
+    Nombre: "Remeras Niño v4",
     Precio: "490",
     Img: "/Images/RemeraNiñoJordan4.jpg",
     Color: "",
@@ -1212,7 +1212,7 @@ export const Datos = [
   },
   {
     id: 110,
-    Nombre: "Remeras de Bebe",
+    Nombre: "Remeras de Bebe v3",
     Precio: "225",
     Img: "/Images/RemeraBebe3.jpg",
     Color: "",
@@ -1223,7 +1223,7 @@ export const Datos = [
   },
   {
     id: 111,
-    Nombre: "Remeras de Bebe",
+    Nombre: "Remeras de Bebe v4",
     Precio: "690",
     Img: "/Images/RemeraBebe4.jpg",
     Color: "",
@@ -1234,7 +1234,7 @@ export const Datos = [
   },
   {
     id: 112,
-    Nombre: "Remeras de Bebe",
+    Nombre: "Remeras de Bebe v5",
     Precio: "225",
     Img: "/Images/RemeraBebe5.jpg",
     Color: "",
@@ -1245,7 +1245,7 @@ export const Datos = [
   },
   {
     id: 113,
-    Nombre: "Buzos Niña",
+    Nombre: "Buzos Niña v2",
     Precio: "280",
     Img: "/Images/BuzoNiña2.jpg",
     Color: "",
@@ -1256,7 +1256,7 @@ export const Datos = [
   },
   {
     id: 114,
-    Nombre: "Buzos Holister",
+    Nombre: "Buzos Holister v1",
     Precio: "1.090",
     Img: "/Images/BuzoHolister.jpg",
     Color: "",
@@ -1267,7 +1267,7 @@ export const Datos = [
   },
   {
     id: 115,
-    Nombre: "Buzos LaCoste",
+    Nombre: "Buzos LaCoste v1",
     Precio: "1.090",
     Img: "/Images/BuzoLacoste.jpg",
     Color: "",
@@ -1289,7 +1289,7 @@ export const Datos = [
   // },
   {
     id: 117,
-    Nombre: "Conjuntos Deportivo Niño",
+    Nombre: "Conjuntos Deportivo Niño v2",
     Precio: "1.090",
     Img: "/Images/ConjuntoDeportivoNiño2.jpg",
     Color: "",
@@ -1300,7 +1300,7 @@ export const Datos = [
   },
   {
     id: 118,
-    Nombre: "Conjuntos Deportivo Niña",
+    Nombre: "Conjuntos Deportivo Niña v3",
     Precio: "1.090",
     Img: "/Images/ConjuntoDeportivoNiño3.jpg",
     Color: "",
@@ -1311,7 +1311,7 @@ export const Datos = [
   },
   {
     id: 119,
-    Nombre: "Conjuntos Deportivo Bebe",
+    Nombre: "Conjuntos Deportivo Bebe v1",
     Precio: "890",
     Img: "/Images/ConjuntoDeportivoBebe.jpg",
     Color: "",
@@ -1322,7 +1322,7 @@ export const Datos = [
   },
   {
     id: 120,
-    Nombre: "Conjuntos Deportivo Bebe",
+    Nombre: "Conjuntos Deportivo Bebe v2",
     Precio: "890",
     Img: "/Images/ConjuntoDeportivoBebe2.jpg",
     Color: "",
@@ -1333,7 +1333,7 @@ export const Datos = [
   },
   {
     id: 121,
-    Nombre: "Conjuntos Nike",
+    Nombre: "Conjuntos Nike v1",
     Precio: "1.790",
     Img: "/Images/ConjuntoNike.jpg",
     Color: "",
@@ -1344,7 +1344,7 @@ export const Datos = [
   },
   {
     id: 122,
-    Nombre: "Gorros vicera",
+    Nombre: "Gorros vicera v1",
     Precio: "400",
     Img: "/Images/GorroVicera1.jpg",
     Color: "",
@@ -1355,7 +1355,7 @@ export const Datos = [
   },
   {
     id: 123,
-    Nombre: "Gorros vicera",
+    Nombre: "Gorros vicera v2",
     Precio: "400",
     Img: "/Images/GorroVicera2.jpg",
     Color: "",
@@ -1366,7 +1366,7 @@ export const Datos = [
   },
   {
     id: 124,
-    Nombre: "Gorros vicera",
+    Nombre: "Gorros vicera v3",
     Precio: "400",
     Img: "/Images/GorroVicera3.jpg",
     Color: "",
@@ -1377,7 +1377,7 @@ export const Datos = [
   },
   {
     id: 125,
-    Nombre: "Gorros vicera",
+    Nombre: "Gorros Lana v1",
     Precio: "400",
     Img: "/Images/GorroLana.jpg",
     Color: "",
@@ -1388,7 +1388,7 @@ export const Datos = [
   },
   {
     id: 126,
-    Nombre: "Conjuntos de Niño",
+    Nombre: "Conjuntos de Niño v7",
     Precio: "690",
     Img: "/Images/ConjuntoNiño7.jpg",
     Color: "",
@@ -1399,7 +1399,7 @@ export const Datos = [
   },
   {
     id: 127,
-    Nombre: "Campera Universitaria",
+    Nombre: "Campera Universitaria v4 ",
     Precio: "1.390",
     Img: "/Images/CamperasUniv4.jpg",
     Color: "",
@@ -1410,7 +1410,7 @@ export const Datos = [
   },
   {
     id: 128,
-    Nombre: "Campera Universitaria",
+    Nombre: "Camperas Universitaria v5",
     Precio: "1.390",
     Img: "/Images/CamperasUniv5.jpg",
     Color: "",
@@ -1421,7 +1421,7 @@ export const Datos = [
   },
   {
     id: 129,
-    Nombre: "Campera Universitaria",
+    Nombre: "Campera Universitaria v6",
     Precio: "1.390",
     Img: "/Images/CamperasUniv6.jpg",
     Color: "",
@@ -1432,7 +1432,7 @@ export const Datos = [
   },
   {
     id: 130,
-    Nombre: "Buzos Tejidos",
+    Nombre: "Buzos Tejidos v1",
     Precio: "520",
     Img: "/Images/BuzosLana.jpg",
     Color: "",
@@ -1443,7 +1443,7 @@ export const Datos = [
   },
   {
     id: 131,
-    Nombre: "Buzos Lana Fina",
+    Nombre: "Buzos Lana Fina v4",
     Precio: "520",
     Img: "/Images/SobreCamisas4.jpg",
     Color: "",
@@ -1454,7 +1454,7 @@ export const Datos = [
   },
   {
     id: 132,
-    Nombre: "Sobre Camisa Pana",
+    Nombre: "Sobre Camisa Pana v5",
     Precio: "1.390",
     Img: "/Images/SobreCamisas5.jpg",
     Color: "",
@@ -1465,7 +1465,7 @@ export const Datos = [
   },
   {
     id: 133,
-    Nombre: "Sobre Camisa Pana",
+    Nombre: "Sobre Camisa Pana v5",
     Precio: "1.390",
     Img: "/Images/SobreCamisas5.jpg",
     Color: "",
@@ -1476,7 +1476,7 @@ export const Datos = [
   },
   {
     id: 134,
-    Nombre: "Sobre Camisa Paño Italiano",
+    Nombre: "Sobre Camisa Paño Italiano v6",
     Precio: "1.890",
     Img: "/Images/SobreCamisas6.jpg",
     Color: "",
@@ -1487,7 +1487,7 @@ export const Datos = [
   },
   {
     id: 135,
-    Nombre: "Sobre Camisa Paño Italiano",
+    Nombre: "Sobre Camisa Paño Italiano v7",
     Precio: "1.890",
     Img: "/Images/SobreCamisas7.jpg",
     Color: "",
@@ -1498,7 +1498,7 @@ export const Datos = [
   },
   {
     id: 136,
-    Nombre: "Buzo Comfy",
+    Nombre: "Buzo Comfy v1",
     Precio: "990",
     Img: "/Images/BuzoComfy.jpg",
     Color: "",
@@ -1509,7 +1509,7 @@ export const Datos = [
   },
   {
     id: 137,
-    Nombre: "Imitación Only You",
+    Nombre: "Imitación Only You v1",
     Precio: "269",
     Img: "/Images/Perfume1.jpg",
     Color: "",
@@ -1520,7 +1520,7 @@ export const Datos = [
   },
   {
     id: 138,
-    Nombre: "Imitación Black Men",
+    Nombre: "Imitación Black Men v1",
     Precio: "360",
     Img: "/Images/Perfume2.jpg",
     Color: "",
@@ -1531,7 +1531,7 @@ export const Datos = [
   },
   {
     id: 139,
-    Nombre: "Imitación Versace",
+    Nombre: "Imitación Versace v1",
     Precio: "299",
     Img: "/Images/Perfume3.jpg",
     Color: "",
@@ -1542,7 +1542,7 @@ export const Datos = [
   },
   {
     id: 140,
-    Nombre: "Imitación 919",
+    Nombre: "Imitación 919 v1",
     Precio: "459",
     Img: "/Images/Perfume4.jpg",
     Color: "",
@@ -1553,7 +1553,7 @@ export const Datos = [
   },
   {
     id: 141,
-    Nombre: "Imitación Diesel",
+    Nombre: "Imitación Diesel v1",
     Precio: "459",
     Img: "/Images/Perfume5.jpg",
     Color: "",
@@ -1564,7 +1564,7 @@ export const Datos = [
   },
   {
     id: 142,
-    Nombre: "Imitación Brilliant",
+    Nombre: "Imitación Brilliant v1",
     Precio: "695",
     Img: "/Images/Perfume6.jpg",
     Color: "",
@@ -1575,7 +1575,7 @@ export const Datos = [
   },
   {
     id: 143,
-    Nombre: "Imitación Flowers",
+    Nombre: "Imitación Flowers v1",
     Precio: "269",
     Img: "/Images/Perfume7.jpg",
     Color: "",
@@ -1586,7 +1586,7 @@ export const Datos = [
   },
   {
     id: 144,
-    Nombre: "Imitación Invictus",
+    Nombre: "Imitación Invictus v1",
     Precio: "459",
     Img: "/Images/Perfume8.jpg",
     Color: "",
@@ -1597,7 +1597,7 @@ export const Datos = [
   },
   {
     id: 145,
-    Nombre: "Imitación million",
+    Nombre: "Imitación million v1",
     Precio: "395",
     Img: "/Images/Perfume9.jpg",
     Color: "",
@@ -1608,7 +1608,7 @@ export const Datos = [
   },
   {
     id: 146,
-    Nombre: "Imitación good girl",
+    Nombre: "Imitación good girl v1",
     Precio: "495",
     Img: "/Images/Perfume10.jpg",
     Color: "",
@@ -1619,7 +1619,7 @@ export const Datos = [
   },
   {
     id: 147,
-    Nombre: "Imitación good girl rojo",
+    Nombre: "Imitación good girl rojo v1",
     Precio: "599",
     Img: "/Images/Perfume11.jpg",
     Color: "",
@@ -1630,7 +1630,7 @@ export const Datos = [
   },
   {
     id: 148,
-    Nombre: "Imitación good girl rojo",
+    Nombre: "Imitación good girl rojo v1",
     Precio: "395",
     Img: "/Images/Perfume12.jpg",
     Color: "",
@@ -1641,7 +1641,7 @@ export const Datos = [
   },
   {
     id: 149,
-    Nombre: "Camperas De Jean Noe",
+    Nombre: "Camperas De Jean Noe v4",
     Precio: "1.590",
     Img: "/Images/CamperaJean4.jpg",
     Color: "",
@@ -1652,7 +1652,7 @@ export const Datos = [
   },
   {
     id: 150,
-    Nombre: "Chalecos Petra",
+    Nombre: "Chalecos Petra v1",
     Precio: "1.890",
     Img: "/Images/Chalecos.jpg",
     Color: "",
@@ -1663,7 +1663,7 @@ export const Datos = [
   },
   {
     id: 151,
-    Nombre: "Sobre Camisa Pana",
+    Nombre: "Sobre Camisa Pana v8",
     Precio: "1.390",
     Img: "/Images/SobreCamisas8.jpg",
     Color: "",
@@ -1674,7 +1674,7 @@ export const Datos = [
   },
   {
     id: 152,
-    Nombre: "Sobre Camisa Pana",
+    Nombre: "Sobre Camisa Pana v9",
     Precio: "1.390",
     Img: "/Images/SobreCamisas9.jpg",
     Color: "",
@@ -1685,7 +1685,7 @@ export const Datos = [
   },
   {
     id: 153,
-    Nombre: "Campera PU",
+    Nombre: "Campera PU v1",
     Precio: "1.290",
     Img: "/Images/CamperaPU.jpg",
     Color: "",
