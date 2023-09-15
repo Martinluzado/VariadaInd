@@ -9,7 +9,7 @@ gap: 2%;
 .General {
     position: absolute;
     top: 15.5rem;
-    left: 47.5%;
+    left: auto;
 }
 option{
     background-color: black;
@@ -37,14 +37,14 @@ backdrop-filter: blur(5px);
     font-size: large;
     margin-bottom: 20px;
     margin-bottom: 0;
-    color: whitesmoke;
+    color: white;
     text-transform: uppercase;
     font-weight: lighter;
     transition: 0.1s;
 }
 
 .genero {
-    color:whitesmoke;
+    color:white;
     font-weight: lighter;
     text-transform: uppercase;
     font-size: medium;
@@ -98,7 +98,7 @@ backdrop-filter: blur(5px);
         .General {
             position: absolute;
             top: 15.5rem;
-            left: 37%;
+            left: auto;
         }
         option{
             background-color: black;
@@ -125,14 +125,14 @@ backdrop-filter: blur(5px);
             font-size: small;
             margin-bottom: 20px;
             margin-bottom: 0;
-            color: whitesmoke;
+            color: white;
             text-transform: uppercase;
             font-weight: lighter;
             transition: 0.1s;
         }
         
         .genero {
-            color:whitesmoke;
+            color:white;
             font-weight: lighter;
             text-transform: uppercase;
             font-size: small;

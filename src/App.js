@@ -5,6 +5,8 @@ import SobreNosotros from './Components/SobreNosotros';
 import MetodosDePagos from './Components/MetodosDePagos';
 import MetodosDeEnvios from './Components/MetodosDeEnvios';
 import Contactanos from './Components/Contactanos';
+import TarjetaEntera from './Components/TarjetaEntera';
+import ListaProductos from './Data/Datos'
 
 function App() {
   return (
@@ -12,6 +14,11 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home />}></Route>
+          <Route
+            path='/:ProductosNombre'
+            element={<TarjetaEntera infoRopa={ListaProductos}/>}>
+            {" "}
+          </Route>
           <Route path='/SobreNosotros' element={<SobreNosotros />}></Route>
           <Route path='/MetodosDePagos' element={<MetodosDePagos />}></Route>
           <Route path='/MetodosDeEnvios' element={<MetodosDeEnvios />}></Route>

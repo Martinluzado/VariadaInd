@@ -1,14 +1,15 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom'
 import "../Styles/MiniTarjeta.css";
 
 function MiniTarjetas({ texto, infoRopa }) {
-  const [categoriaSeleccionada, setCategoriaSeleccionada] = useState("Todas");
+  const [categoriaSeleccionada, setCategoriaSeleccionada] = useState("Seleccionar Categoria");
 
   const string = texto;
   let regex = new RegExp(string, "gi");
 
   let filtradosPorCategoria =
-    categoriaSeleccionada === "Todas"
+    categoriaSeleccionada === "Seleccionar Categoria"
       ? infoRopa
       : infoRopa.filter((Dato) => Dato.Categoria === categoriaSeleccionada);
 
@@ -19,7 +20,7 @@ function MiniTarjetas({ texto, infoRopa }) {
   // Ordenar por precio de menor a mayor
   filtradosPorTexto.sort((a, b) => a.Precio - b.Precio);
 
-  const categorias = ["Todas", "Remeras", "Pantalones", "Shorts", "Camperas", "Buzos", "Conjuntos"]; // Define tus categorías aquí
+  const categorias = ["Seleccionar Categoria", "Remeras", "Pantalones", "Shorts", "Camperas", "Buzos", "Conjuntos", "Gorros", "Accesorios", "Perfumes"]; // Define tus categorías aquí
 
 
 
@@ -42,7 +43,9 @@ function MiniTarjetas({ texto, infoRopa }) {
             </select>
           </div>
         </div>
-        {filtradosPorTexto.map((Dato) => (
+        {filtradosPorTexto.map((Dato) => (  
+        <Link style={{textDecoration: "none"}} to={`/${Dato.Nombre}`}>
+         
           <div className="Tarjeta" key={Dato.ID}>
       <p className="ID">${Dato.Precio}</p>
       <img className="ImagenChica" src={Dato.Img} alt="" />
@@ -74,6 +77,8 @@ function MiniTarjetas({ texto, infoRopa }) {
         </div>
       </div>
     </div>
+     
+      </Link>
   ))}
 </div>
 

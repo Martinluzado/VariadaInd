@@ -1,0 +1,172 @@
+.Flecha{
+    background-color: rgb(226, 59, 59);
+    border-radius: 5px;
+    border: none;
+    font-size: x-large;
+    color: white;
+}
+.Footer2{
+   display: flex;
+   justify-content: center;
+}
+.Back2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+    gap: 2%;
+    }
+    .Tarjeta2 {
+        width: 400px;
+    background: #454752;
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+        border-radius: 5px;
+        transition: 0.1s;
+        margin-bottom: 3%;
+    }
+    
+    .nombre2 {
+        font-size: large;
+        margin-bottom: 20px;
+        margin-bottom: 0;
+        color: white;
+        text-transform: uppercase;
+        font-weight: lighter;
+        transition: 0.1s;
+    }
+    
+    .genero2 {
+        color:white;
+        font-weight: lighter;
+        text-transform: uppercase;
+        font-size: medium;
+        transition: 0.1s;
+    }
+    .nombre2:hover{
+        color: rgb(255, 152, 0);
+    }
+    .genero2:hover:hover{
+        color: rgb(255, 152, 0);
+    }
+    .ImagenChica2 {
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+        margin: 0;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+    .ID2{
+        position: fixed;
+        width: auto;
+        margin: 2%;
+        font-size: large;
+        color: white;
+        border: solid 2px rgb(226, 59, 59);
+        background: rgb(226, 59, 59);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border-radius: 5px;
+        animation: scaleAnimation 1s alternate infinite;
+    }
+    @keyframes scaleAnimation {
+        0% {
+            transform: scale(1);
+        }
+        100% {
+            transform: scale(1.2);
+        }
+    }
+    
+    @media only screen and (max-width: 600px){
+        .Flecha{
+            background-color: rgb(226, 59, 59);
+            border-radius: 5px;
+            border: none;
+            font-size: x-large;
+            color: white;
+        }
+        .Footer2{
+            display: flex;
+            justify-content: center;
+            margin-top: 0;
+        }
+        .Back2{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin-top:0;
+            gap: 5%;
+            }
+            .General2 {
+                position: absolute;
+                top: 15.5rem;
+                left: auto;
+            }
+            .Tarjeta2 {
+                width: 300px;
+            background: #454752;
+            border-radius: 16px;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+                border-radius: 5px;
+                transition: 0.1s;
+                margin-bottom: 3%;
+            }
+            
+            .nombre2 {
+                font-size: large;
+                margin-bottom: 20px;
+                margin-bottom: 0;
+                color: white;
+                text-transform: uppercase;
+                font-weight: lighter;
+                transition: 0.1s;
+            }
+            
+            .genero2 {
+                color:white;
+                font-weight: lighter;
+                text-transform: uppercase;
+                font-size: large;
+                transition: 0.1s;
+            }
+            .nombre2:hover{
+                color: rgb(255, 152, 0);
+            }
+            .genero2:hover:hover{
+                color: rgb(255, 152, 0);
+            }
+            .ImagenChica2 {
+                width: 300px;
+                height: 300px;
+                object-fit: cover;
+                margin: 0;
+                border-top-left-radius: 0px;
+                border-top-right-radius: 0px;
+                background: #454752;
+                background-color: #454752;
+            }
+            .ID2{
+                position: absolute;
+                width: auto;
+                margin: 2%;
+                font-size: small;
+                color: white;
+                border: solid 2px rgb(226, 59, 59);
+                background: rgb(226, 59, 59);
+                backdrop-filter: blur(5px);
+                -webkit-backdrop-filter: blur(5px);
+                border-radius: 5px;
+            }
+            @keyframes scaleAnimation {
+                0% {
+                }
+                100% {
+                }
+            }
+    }
