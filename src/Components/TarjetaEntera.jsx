@@ -78,8 +78,7 @@ const TarjetaEntera = ({ infoRopa }) => {
           Decir el talle deseado a comprar y la cantidad que se deseean.
         </p>
         <br />
-        <p className="pComoComprar"
-        style={{textDecoration:"underLine"}}>
+        <p className="pComoComprar" style={{ textDecoration: "underLine" }}>
           ¡GRACIAS!
         </p>
       </div>

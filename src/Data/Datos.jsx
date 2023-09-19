@@ -1692,7 +1692,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "S-XL",
-    Categoria: "Camperas",
+    Categoria:"Camperas",
   },
 
 ];
