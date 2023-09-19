@@ -59,7 +59,7 @@ const TarjetaEntera = ({ infoRopa }) => {
         </Link>
         <button className="Flecha2">
           <a
-            href="https://api.whatsapp.com/send?phone=598099662554"
+            href="https://api.whatsapp.com/send?phone=598099662554&text=Hola, quiero consultar sobre el producto de item: "
             style={{ textDecoration: "none", color: "white" }}
           >
             <AiOutlineWhatsApp />

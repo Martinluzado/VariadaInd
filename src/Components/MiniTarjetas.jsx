@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from 'react-router-dom'
 import "../Styles/MiniTarjeta.css";
+import Datos from "../Data/Datos";
 
 function MiniTarjetas({ texto, infoRopa }) {
   const [categoriaSeleccionada, setCategoriaSeleccionada] = useState("Seleccionar Categoria");
@@ -16,6 +17,9 @@ function MiniTarjetas({ texto, infoRopa }) {
   let filtradosPorTexto = filtradosPorCategoria.filter((Dato) =>
     Dato.Nombre.match(regex)
   );
+
+    // Verificar si hay talles disponibles
+    const tallesDisponibles = Datos.Talle && Datos.Talle.length > 0;
 
   // Ordenar por precio de menor a mayor
   filtradosPorTexto.sort((a, b) => a.Precio - b.Precio);
@@ -57,7 +61,11 @@ function MiniTarjetas({ texto, infoRopa }) {
         }}
       >
         <p className="nombre">{Dato.Nombre}</p>
-        <p className="genero">TALLES : {Dato.Talle}</p>
+          {/* Mostrar el elemento "TALLES" solo si hay talles disponibles */}
+          {tallesDisponibles && (
+              <p className="genero2">TALLES : {Dato.Talle}</p>
+            )}
+
         {Dato.Detalle ? (
           <p className="genero" style={ {color:"red",fontWeight:"bolder"}}>{Dato.Detalle}</p>
         ) : (
