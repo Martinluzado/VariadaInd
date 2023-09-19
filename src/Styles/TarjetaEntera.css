@@ -5,9 +5,17 @@
     font-size: x-large;
     color: white;
 }
+.Flecha2{
+    background-color: rgb(226, 59, 59);
+    border-radius: 5px;
+    border: none;
+    font-size: x-large;
+    color: white;
+}
 .Footer2{
    display: flex;
    justify-content: center;
+   gap: 2%;
 }
 .Back2{
     display: flex;
@@ -72,6 +80,35 @@
         border-radius: 5px;
         animation: scaleAnimation 1s alternate infinite;
     }
+    .ID3{
+        position: fixed;
+        width: auto;
+        left: 80%;
+        margin: 2%;
+        font-size: x-large;
+        color: white;
+        border: solid 2px rgb(226, 59, 59);
+        background: rgb(226, 59, 59);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border-radius: 5px;
+    }
+    .comoComprar{
+        text-align: center;
+        margin-left: 20%;
+        margin-right:20% ;
+        margin-bottom: 5%;
+    }
+    .hComoComprar{
+        color: white;
+        text-decoration: underline;
+        font-weight: lighter;
+    }
+    .pComoComprar{
+        color: white;
+        font-size: large;
+        font-weight: lighter;
+    }
     @keyframes scaleAnimation {
         0% {
             transform: scale(1);
@@ -83,6 +120,13 @@
     
     @media only screen and (max-width: 600px){
         .Flecha{
+            background-color: rgb(226, 59, 59);
+            border-radius: 5px;
+            border: none;
+            font-size: x-large;
+            color: white;
+        }
+        .Flecha2{
             background-color: rgb(226, 59, 59);
             border-radius: 5px;
             border: none;
@@ -156,6 +200,19 @@
                 width: auto;
                 margin: 2%;
                 font-size: small;
+                color: white;
+                border: solid 2px rgb(226, 59, 59);
+                background: rgb(226, 59, 59);
+                backdrop-filter: blur(5px);
+                -webkit-backdrop-filter: blur(5px);
+                border-radius: 5px;
+            }
+            .ID3{
+                position: fixed;
+                width: auto;
+                left: 72%;
+                margin: 2%;
+                font-size: x-large;
                 color: white;
                 border: solid 2px rgb(226, 59, 59);
                 background: rgb(226, 59, 59);

@@ -20,9 +20,6 @@ function Header() {
         <Link to={"/MetodosDePagos"}>
           <button className="bHeader">Metodos de pagos</button>
         </Link>
-        <Link to={"/Contactanos"}>
-          <button className="bHeader">Contactanos</button>
-        </Link>
       </div>
     </div>
   );

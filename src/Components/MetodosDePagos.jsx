@@ -5,7 +5,10 @@ import '../Styles/EstilosInfo.css'
 function MetodosDePagos() {
   return (
     <div>
-    <div className="Header2">
+    <div className="Header2"
+      style={{
+        marginTop: "10%",
+      }}>
     <Link to={"/"}>
       <button className="Buttoninfo">
         <BiHomeAlt2 />
@@ -13,13 +16,16 @@ function MetodosDePagos() {
     </Link>
     <h1 className="H1info">Pagos</h1>
     </div>
-<div className="parrafo">
-    <p className="Pinfo">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit
-      repellendus, veritatis sunt, ipsum exercitationem delectus commodi id
-      officia ad aspernatur corporis maxime, recusandae quas error eligendi
-      dolore. Doloribus, ratione dolores?
-    </p>
+<div className="parrafo"
+  >
+    <ul className="Pinfo" style={{
+    marginTop: "10%",
+  }}>
+      <li className="Li1">Giros</li>
+      <li className="Li1">Transferencias</li>
+      <li className="Li1">Depósitos</li>
+      <li className="Li1">Efectivo</li>
+    </ul>
     </div>
   </div>
   )
