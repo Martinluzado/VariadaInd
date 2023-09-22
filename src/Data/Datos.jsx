@@ -354,7 +354,7 @@ export const Datos = [
   },
   {
     id: 33,
-    Nombre: "Remeras Adidas v1",
+    Nombre: "Remeras Adidas v2",
     Precio: "520",
     Img: "/Images/RemeraAdidas.jpg",
     Color: "wheat",
@@ -365,7 +365,7 @@ export const Datos = [
   },
   {
     id: 34,
-    Nombre: "Remeras Adidas v2",
+    Nombre: "Remeras Adidas v3",
     Precio: "520",
     Img: "/Images/RemeraAdidas2.jpg",
     Color: "red",
@@ -475,7 +475,7 @@ export const Datos = [
   },
   {
     id: 44,
-    Nombre: "Buzos Adidas v1",
+    Nombre: "Buzos Adidas v2",
     Precio: "1.190",
     Img: "/Images/BuzoAdidasNegro.jpg",
     Color: "Black",
@@ -695,13 +695,13 @@ export const Datos = [
   },
   {
     id: 64,
-    Nombre: "Remeras Nike v6",
+    Nombre: "Remeras Nike v5",
     Precio: "520",
     Img: "/Images/RemeraNike5.jpg",
     Color: "white",
     ColorSecundario: "",
     Detalle: "",
-    Talle: "S",
+    Talle: "L",
     Categoria: "Remeras",
   },
   {
