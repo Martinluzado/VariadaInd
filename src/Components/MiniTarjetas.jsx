@@ -7,6 +7,11 @@ function MiniTarjetas({ texto, infoRopa }) {
   const [categoriaSeleccionada, setCategoriaSeleccionada] = useState(
     "Seleccionar Categoria"
   );
+  const [productosAMostrar, setProductosAMostrar] = useState(10); // Cambia este valor según tus necesidades
+  const cargarMasProductos = () => {
+    // Aumenta la cantidad de productos a mostrar
+    setProductosAMostrar(productosAMostrar + 10);
+  };
 
   const string = texto;
   let regex = new RegExp(string, "gi");
@@ -62,7 +67,7 @@ function MiniTarjetas({ texto, infoRopa }) {
           </select>
         </div>
       </div>
-      {filtradosPorTexto.map((Dato) => (
+      {filtradosPorTexto.slice(0, productosAMostrar).map((Dato) => (
         <Link style={{ textDecoration: "none" }} to={`/${Dato.Nombre}`}>
           <div className="Tarjeta" key={Dato.ID}>
             <p className="ID">${Dato.Precio}</p>
@@ -103,9 +108,15 @@ function MiniTarjetas({ texto, infoRopa }) {
                 ></div>
               </div>
             </div>
+            
           </div>
         </Link>
+        
       ))}
+       {/* Botón "Ver más productos" */}
+       {productosAMostrar < filtradosPorTexto.length && (
+        <button onClick={cargarMasProductos}>Ver más productos</button>
+      )}
     </div>
   );
 }
