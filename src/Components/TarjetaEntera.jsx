@@ -71,11 +71,11 @@ const TarjetaEntera = ({ infoRopa }) => {
         <h1 className="hComoComprar">Como comprar!</h1>
         <p className="pComoComprar">
           Para poder comprar envianos un mensaje con el Item del producto, el
-          cual se encuentra en la parte superiro derecha de la tarjeta del
+          cual se encuentra en la parte superior derecha de la tarjeta del
           producto.
         </p>
         <p className="pComoComprar">
-          Decir el talle deseado a comprar y la cantidad que se deseean.
+          Decir el talle deseado a comprar y la cantidad que se deseen comprar.
         </p>
         <br />
         <p className="pComoComprar" style={{ textDecoration: "underLine" }}>

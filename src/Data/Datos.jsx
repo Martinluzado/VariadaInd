@@ -1399,7 +1399,7 @@ export const Datos = [
   },
   {
     id: 127,
-    Nombre: "Campera Universitaria v4 ",
+    Nombre: "Camperas Universitaria v4",
     Precio: "1.390",
     Img: "/Images/CamperasUniv4.jpg",
     Color: "",
