@@ -115,7 +115,13 @@ function MiniTarjetas({ texto, infoRopa }) {
       ))}
        {/* Botón "Ver más productos" */}
        {productosAMostrar < filtradosPorTexto.length && (
-        <button onClick={cargarMasProductos}>Ver más productos</button>
+        <button style={{
+          color:"white",
+          border:"none",
+          backgroundColor:"red",
+          fontSize:"medium",
+          margin:"5%"
+        }} onClick={cargarMasProductos}>Ver más productos</button>
       )}
     </div>
   );
