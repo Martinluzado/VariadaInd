@@ -697,7 +697,7 @@ export const Datos = [
     id: 64,
     Nombre: "Remeras Nike v5",
     Precio: "520",
-    Img: "/Images/RemeraNike5.jpg",
+    Img: "/Images/RemeraNikee5.jpg",
     Color: "white",
     ColorSecundario: "",
     Detalle: "",
