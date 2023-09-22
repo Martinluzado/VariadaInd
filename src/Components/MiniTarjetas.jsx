@@ -121,7 +121,7 @@ function MiniTarjetas({ texto, infoRopa }) {
           borderRadius:"10px",
           backgroundColor:"red",
           fontSize:"medium",
-          margin:"5%"
+          margin:"2.5%"
         }} onClick={cargarMasProductos}>Ver más productos</button>
       )}
     </div>
