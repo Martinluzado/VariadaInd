@@ -118,6 +118,7 @@ function MiniTarjetas({ texto, infoRopa }) {
         <button style={{
           color:"white",
           border:"none",
+          borderRadius:"10px",
           backgroundColor:"red",
           fontSize:"medium",
           margin:"5%"
