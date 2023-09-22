@@ -695,13 +695,13 @@ export const Datos = [
   },
   {
     id: 64,
-    Nombre: "Remeras Nike v5",
+    Nombre: "Remeras Nike v6",
     Precio: "520",
     Img: "/Images/RemeraNike5.jpg",
     Color: "white",
     ColorSecundario: "",
     Detalle: "",
-    Talle: "L",
+    Talle: "S",
     Categoria: "Remeras",
   },
   {
