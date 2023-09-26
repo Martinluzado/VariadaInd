@@ -5,11 +5,13 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <div className="HeaderGeneral">
+      <Link to={"/"}>
       <img
         src="Images/Logo.png"
         alt="Variada indumentaria logo"
         className="titulo"
       />
+      </Link>
       <div className="assideHeader">
         <Link to={"/SobreNosotros"}>
           <button className="bHeader">Sobre Nosotros</button>
