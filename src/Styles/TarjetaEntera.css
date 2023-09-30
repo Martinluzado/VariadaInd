@@ -62,11 +62,17 @@
     .ImagenChica2 {
         width: 400px;
         height: 400px;
-        object-fit: cover;
+        object-fit:cover;
         margin: 0;
         border-top-left-radius: 0px;
         border-top-right-radius: 0px;
+        cursor:zoom-in;
     }
+    .ImagenChica2.Agrandada {
+        width: 100%; /* Puedes ajustar esto según tus necesidades */
+        height: auto;
+        cursor: zoom-out;
+      }
     .ID2{
         position: fixed;
         width: auto;
@@ -83,7 +89,7 @@
     .ID3{
         position: fixed;
         width: auto;
-        left: 80%;
+        left: 75%;
         margin: 2%;
         font-size: x-large;
         color: white;

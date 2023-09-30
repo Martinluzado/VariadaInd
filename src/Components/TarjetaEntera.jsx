@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import "../Styles/TarjetaEntera.css";
 import { BiHomeAlt2 } from "react-icons/bi";
@@ -12,14 +12,22 @@ const TarjetaEntera = ({ infoRopa }) => {
 
   // Verificar si hay talles disponibles
   const tallesDisponibles = Productos.Talle && Productos.Talle.length > 0;
-
+  const [imagenAgrandada, setImagenAgrandada] = useState(false);
+  const toggleImagenAgrandada = () => {
+    setImagenAgrandada(!imagenAgrandada);
+  };
   return (
     <div>
       <div className="Back2">
         <div className="Tarjeta2" key={Productos.ID}>
           <p className="ID2">${Productos.Precio}</p>
           <p className="ID3">ITEM:{Productos.id}</p>
-          <img className="ImagenChica2" src={Productos.Img} alt="" />
+          <img
+            className={`ImagenChica2 ${imagenAgrandada ? "Agrandada" : ""}`}
+            src={Productos.Img}
+            alt=""
+            onClick={toggleImagenAgrandada}
+          />
           <div
             style={{
               textAlign: "left",
