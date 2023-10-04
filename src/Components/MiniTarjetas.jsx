@@ -43,7 +43,8 @@ function MiniTarjetas({ texto, infoRopa }) {
     "Accesorios",
     "Perfumes",
     "Fitness",
-    "Calzados"
+    "Calzados",
+    "Musculosas"
   ]; // Define tus categorías aquí
 
   return (
