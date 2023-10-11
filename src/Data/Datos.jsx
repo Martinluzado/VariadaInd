@@ -805,7 +805,7 @@ export const Datos = [
   },
   {
     id: 74,
-    Nombre: "Remeras GirlPower v3" ,
+    Nombre: "Remeras GirlPower v3",
     Precio: "390",
     Img: "/Images/RemeraBarbie3.jpg",
     Color: "black",
@@ -1692,7 +1692,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "S-XL",
-    Categoria:"Camperas",
+    Categoria: "Camperas",
   },
   {
     id: 154,
@@ -1703,7 +1703,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: " Cuatro reparticiones y delicados detalles",
     Talle: "",
-    Categoria:"Accesorios",
+    Categoria: "Accesorios",
   },
   {
     id: 155,
@@ -1714,7 +1714,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "Disponible en Rosa-Verde Agua",
     Talle: "",
-    Categoria:"Accesorios",
+    Categoria: "Accesorios",
   },
   {
     id: 156,
@@ -1725,7 +1725,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "Rojo o Negro",
     Talle: "",
-    Categoria:"Accesorios",
+    Categoria: "Accesorios",
   },
   {
     id: 157,
@@ -1736,7 +1736,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "Rojo o Negro",
     Talle: "",
-    Categoria:"Accesorios",
+    Categoria: "Accesorios",
   },
   {
     id: 158,
@@ -1747,7 +1747,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "Rojo o Rosa",
     Talle: "",
-    Categoria:"Accesorios",
+    Categoria: "Accesorios",
   },
   {
     id: 159,
@@ -1758,7 +1758,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "Rojo, Negro, Rosa",
     Talle: "",
-    Categoria:"Accesorios",
+    Categoria: "Accesorios",
   },
   {
     id: 160,
@@ -1769,7 +1769,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "6",
-    Categoria:"Conjuntos",
+    Categoria: "Conjuntos",
   },
   {
     id: 161,
@@ -1780,7 +1780,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "10",
-    Categoria:"Conjuntos",
+    Categoria: "Conjuntos",
   },
   {
     id: 162,
@@ -1791,7 +1791,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "6",
-    Categoria:"Conjuntos",
+    Categoria: "Conjuntos",
   },
   {
     id: 163,
@@ -1802,7 +1802,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "6",
-    Categoria:"Conjuntos",
+    Categoria: "Conjuntos",
   },
   {
     id: 164,
@@ -1813,7 +1813,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "6",
-    Categoria:"Conjuntos",
+    Categoria: "Conjuntos",
   },
   {
     id: 165,
@@ -1824,7 +1824,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "6",
-    Categoria:"Conjuntos",
+    Categoria: "Conjuntos",
   },
   {
     id: 166,
@@ -1835,19 +1835,19 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "6",
-    Categoria:"Conjuntos",
+    Categoria: "Conjuntos",
   },
-  {
-    id: 167,
-    Nombre: "Conjuntos De Niño v15",
-    Precio: "890",
-    Img: "/Images/ConjuntoNiño15.jpg",
-    Color: "",
-    ColorSecundario: "",
-    Detalle: "",
-    Talle: "8-10",
-    Categoria:"Conjuntos",
-  },
+  // {
+  //   id: 167,
+  //   Nombre: "Conjuntos De Niño v15",
+  //   Precio: "890",
+  //   Img: "/Images/ConjuntoNiño15.jpg",
+  //   Color: "",
+  //   ColorSecundario: "",
+  //   Detalle: "",
+  //   Talle: "8-10",
+  //   Categoria: "Conjuntos",
+  // },
   {
     id: 168,
     Nombre: "Conjuntos De Niño v16",
@@ -1857,7 +1857,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "8-10-12",
-    Categoria:"Conjuntos",
+    Categoria: "Conjuntos",
   },
   {
     id: 169,
@@ -1868,7 +1868,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "10",
-    Categoria:"Conjuntos",
+    Categoria: "Conjuntos",
   },
   {
     id: 170,
@@ -1879,7 +1879,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "8-10",
-    Categoria:"Conjuntos",
+    Categoria: "Conjuntos",
   },
   {
     id: 171,
@@ -1890,7 +1890,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "6",
-    Categoria:"Conjuntos",
+    Categoria: "Conjuntos",
   },
   {
     id: 172,
@@ -1901,7 +1901,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "8",
-    Categoria:"Conjuntos",
+    Categoria: "Conjuntos",
   },
   {
     id: 173,
@@ -1912,7 +1912,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "10",
-    Categoria:"Conjuntos",
+    Categoria: "Conjuntos",
   },
   {
     id: 174,
@@ -1923,7 +1923,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "10",
-    Categoria:"Conjuntos",
+    Categoria: "Conjuntos",
   },
   {
     id: 175,
@@ -1934,7 +1934,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "8-14",
-    Categoria:"Conjuntos",
+    Categoria: "Conjuntos",
   },
   {
     id: 176,
@@ -1945,7 +1945,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "3-4",
-    Categoria:"Fitness",
+    Categoria: "Fitness",
   },
   {
     id: 177,
@@ -1956,7 +1956,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "M",
-    Categoria:"Fitness",
+    Categoria: "Fitness",
   },
   {
     id: 178,
@@ -1967,7 +1967,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "6-7",
-    Categoria:"Shorts",
+    Categoria: "Shorts",
   },
   {
     id: 179,
@@ -1978,7 +1978,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "6-7-8-9",
-    Categoria:"Remeras",
+    Categoria: "Remeras",
   },
   {
     id: 180,
@@ -1989,7 +1989,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "1-2-3-4-5",
-    Categoria:"Remeras",
+    Categoria: "Remeras",
   },
   {
     id: 181,
@@ -2000,7 +2000,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "1-2-3-4-5",
-    Categoria:"Fitness",
+    Categoria: "Fitness",
   },
   {
     id: 182,
@@ -2011,7 +2011,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "1-2-3-4-5",
-    Categoria:"Fitness",
+    Categoria: "Fitness",
   },
   {
     id: 183,
@@ -2022,7 +2022,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "SHORT SOLO $950",
     Talle: "XXL",
-    Categoria:"Conjuntos",
+    Categoria: "Conjuntos",
   },
   {
     id: 184,
@@ -2033,7 +2033,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "M-L-XL-XXL",
-    Categoria:"Shorts",
+    Categoria: "Shorts",
   },
   {
     id: 185,
@@ -2044,7 +2044,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "M-L-XL-XXL",
-    Categoria:"Shorts",
+    Categoria: "Shorts",
   },
   {
     id: 186,
@@ -2055,7 +2055,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "M-L-XL-XXL",
-    Categoria:"Shorts",
+    Categoria: "Shorts",
   },
   {
     id: 187,
@@ -2066,7 +2066,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "M-L-XL-XXL",
-    Categoria:"Shorts",
+    Categoria: "Shorts",
   },
   {
     id: 188,
@@ -2077,7 +2077,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "M-L-XL-XXL",
-    Categoria:"Shorts",
+    Categoria: "Shorts",
   },
   {
     id: 189,
@@ -2088,7 +2088,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "M-L-XL-XXL",
-    Categoria:"Shorts",
+    Categoria: "Shorts",
   },
   {
     id: 190,
@@ -2099,7 +2099,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "M-L-XL-XXL",
-    Categoria:"Shorts",
+    Categoria: "Shorts",
   },
   {
     id: 191,
@@ -2110,7 +2110,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "M-L-XL-XXL",
-    Categoria:"Shorts",
+    Categoria: "Shorts",
   },
   {
     id: 192,
@@ -2121,7 +2121,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "M-L-XL-XXL",
-    Categoria:"Shorts",
+    Categoria: "Shorts",
   },
   {
     id: 193,
@@ -2132,7 +2132,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "M-L-XL-XXL",
-    Categoria:"Shorts",
+    Categoria: "Shorts",
   },
   {
     id: 194,
@@ -2143,7 +2143,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "UNICAMENTE POR ENCARGUE SEÑA DE $2.000",
     Talle: "FALTA TALLE",
-    Categoria:"Calzados",
+    Categoria: "Calzados",
   },
   {
     id: 195,
@@ -2154,7 +2154,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "UNICAMENTE POR ENCARGUE SEÑA DE $2.000",
     Talle: "36-44",
-    Categoria:"Calzados",
+    Categoria: "Calzados",
   },
   {
     id: 196,
@@ -2165,7 +2165,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "UNICAMENTE POR ENCARGUE SEÑA DE $2.000",
     Talle: "FALTA TALLE",
-    Categoria:"Calzados",
+    Categoria: "Calzados",
   },
   {
     id: 197,
@@ -2176,7 +2176,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "UNICAMENTE POR ENCARGUE SEÑA DE $2.000",
     Talle: "36-44",
-    Categoria:"Calzados",
+    Categoria: "Calzados",
   },
   {
     id: 198,
@@ -2187,7 +2187,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "UNICAMENTE POR ENCARGUE SEÑA DE $2.000",
     Talle: "36-44",
-    Categoria:"Calzados",
+    Categoria: "Calzados",
   },
   {
     id: 199,
@@ -2198,7 +2198,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "UNICAMENTE POR ENCARGUE SEÑA DE $2.000",
     Talle: "FALTA TALLE",
-    Categoria:"Calzados",
+    Categoria: "Calzados",
   },
   {
     id: 200,
@@ -2209,7 +2209,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "UNICAMENTE POR ENCARGUE SEÑA DE $2.000",
     Talle: "36-44",
-    Categoria:"Calzados",
+    Categoria: "Calzados",
   },
   {
     id: 201,
@@ -2220,7 +2220,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "UNICAMENTE POR ENCARGUE SEÑA DE $2.000",
     Talle: "40-44",
-    Categoria:"Calzados",
+    Categoria: "Calzados",
   },
   {
     id: 202,
@@ -2231,7 +2231,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "UNICAMENTE POR ENCARGUE SEÑA DE $2.000",
     Talle: "40-44",
-    Categoria:"Calzados",
+    Categoria: "Calzados",
   },
   {
     id: 203,
@@ -2242,7 +2242,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "UNICAMENTE POR ENCARGUE SEÑA DE $2.000",
     Talle: "FALTA TALLE",
-    Categoria:"Calzados",
+    Categoria: "Calzados",
   },
   {
     id: 204,
@@ -2253,7 +2253,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "UNICAMENTE POR ENCARGUE SEÑA DE $2.000",
     Talle: "FALTA TALLE",
-    Categoria:"Calzados",
+    Categoria: "Calzados",
   },
   {
     id: 205,
@@ -2264,7 +2264,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "UNICAMENTE POR ENCARGUE SEÑA DE $2.000",
     Talle: "FALTA TALLE",
-    Categoria:"Calzados",
+    Categoria: "Calzados",
   },
   {
     id: 206,
@@ -2275,7 +2275,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "UNICAMENTE POR ENCARGUE SEÑA DE $2.000",
     Talle: "36-44",
-    Categoria:"Calzados",
+    Categoria: "Calzados",
   },
   {
     id: 207,
@@ -2286,7 +2286,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "UNICAMENTE POR ENCARGUE SEÑA DE $2.000",
     Talle: "FALTA TALLE",
-    Categoria:"Calzados",
+    Categoria: "Calzados",
   },
   {
     id: 208,
@@ -2297,7 +2297,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "XXL",
-    Categoria:"Musculosas",
+    Categoria: "Musculosas",
   },
   {
     id: 209,
@@ -2308,7 +2308,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "XXL",
-    Categoria:"Musculosas",
+    Categoria: "Musculosas",
   },
   {
     id: 210,
@@ -2319,7 +2319,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "XXL",
-    Categoria:"Musculosas",
+    Categoria: "Musculosas",
   },
   {
     id: 211,
@@ -2330,7 +2330,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "XXL",
-    Categoria:"Musculosas",
+    Categoria: "Musculosas",
   },
   {
     id: 212,
@@ -2341,7 +2341,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "XXL",
-    Categoria:"Musculosas",
+    Categoria: "Musculosas",
   },
   {
     id: 213,
@@ -2352,7 +2352,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "XXL",
-    Categoria:"Musculosas",
+    Categoria: "Musculosas",
   },
   {
     id: 214,
@@ -2363,7 +2363,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "XXL",
-    Categoria:"Musculosas",
+    Categoria: "Musculosas",
   },
   {
     id: 215,
@@ -2374,7 +2374,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "XXL",
-    Categoria:"Musculosas",
+    Categoria: "Musculosas",
   },
   {
     id: 216,
@@ -2385,7 +2385,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "XXL",
-    Categoria:"Musculosas",
+    Categoria: "Musculosas",
   },
   {
     id: 217,
@@ -2396,7 +2396,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "XXL",
-    Categoria:"Musculosas",
+    Categoria: "Musculosas",
   },
   {
     id: 218,
@@ -2407,7 +2407,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "XXL",
-    Categoria:"Musculosas",
+    Categoria: "Musculosas",
   },
   {
     id: 219,
@@ -2418,7 +2418,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "XXL",
-    Categoria:"Musculosas",
+    Categoria: "Musculosas",
   },
   {
     id: 220,
@@ -2429,7 +2429,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "XXL",
-    Categoria:"Musculosas",
+    Categoria: "Musculosas",
   },
   {
     id: 221,
@@ -2440,7 +2440,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "XXL",
-    Categoria:"Musculosas",
+    Categoria: "Musculosas",
   },
   {
     id: 222,
@@ -2451,7 +2451,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "XXL",
-    Categoria:"Musculosas",
+    Categoria: "Musculosas",
   },
   {
     id: 223,
@@ -2462,7 +2462,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "XXL",
-    Categoria:"Musculosas",
+    Categoria: "Musculosas",
   },
   {
     id: 224,
@@ -2473,7 +2473,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "XXL",
-    Categoria:"Musculosas",
+    Categoria: "Musculosas",
   },
   {
     id: 225,
@@ -2484,7 +2484,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "XXL",
-    Categoria:"Musculosas",
+    Categoria: "Musculosas",
   },
   {
     id: 226,
@@ -2495,7 +2495,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "XXL",
-    Categoria:"Musculosas",
+    Categoria: "Musculosas",
   },
   {
     id: 227,
@@ -2506,7 +2506,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "XXL",
-    Categoria:"Musculosas",
+    Categoria: "Musculosas",
   },
   {
     id: 228,
@@ -2517,7 +2517,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "XXL",
-    Categoria:"Musculosas",
+    Categoria: "Musculosas",
   },
   {
     id: 229,
@@ -2528,7 +2528,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "XXL",
-    Categoria:"Musculosas",
+    Categoria: "Musculosas",
   },
   {
     id: 230,
@@ -2539,7 +2539,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "XXL",
-    Categoria:"Musculosas",
+    Categoria: "Musculosas",
   },
   {
     id: 231,
@@ -2550,7 +2550,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "XXL",
-    Categoria:"Musculosas",
+    Categoria: "Musculosas",
   },
   {
     id: 232,
@@ -2561,7 +2561,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "8-16",
-    Categoria:"Remeras",
+    Categoria: "Remeras",
   },
   {
     id: 233,
@@ -2572,7 +2572,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "S-XXL",
-    Categoria:"Remeras",
+    Categoria: "Remeras",
   },
   {
     id: 234,
@@ -2583,7 +2583,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "8-16",
-    Categoria:"Remeras",
+    Categoria: "Remeras",
   },
   {
     id: 235,
@@ -2594,7 +2594,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "8-16",
-    Categoria:"Remeras",
+    Categoria: "Remeras",
   },
   {
     id: 236,
@@ -2605,7 +2605,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "8-16",
-    Categoria:"Remeras",
+    Categoria: "Remeras",
   },
   {
     id: 237,
@@ -2616,7 +2616,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "  M-L-XL-XXL",
-    Categoria:"Remeras",
+    Categoria: "Remeras",
   },
   {
     id: 238,
@@ -2627,7 +2627,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "  M-L-XL-XXL",
-    Categoria:"Remeras",
+    Categoria: "Remeras",
   },
   {
     id: 239,
@@ -2638,7 +2638,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "  M-L-XL-XXL",
-    Categoria:"Remeras",
+    Categoria: "Remeras",
   },
   {
     id: 240,
@@ -2649,7 +2649,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "  M-L-XL-XXL",
-    Categoria:"Remeras",
+    Categoria: "Remeras",
   },
   {
     id: 241,
@@ -2660,7 +2660,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "  M-L-XL-XXL",
-    Categoria:"Remeras",
+    Categoria: "Remeras",
   },
   {
     id: 243,
@@ -2671,7 +2671,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "  M-L-XL-XXL",
-    Categoria:"Remeras",
+    Categoria: "Remeras",
   },
   {
     id: 244,
@@ -2682,7 +2682,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "  M-L-XL-XXL",
-    Categoria:"Remeras",
+    Categoria: "Remeras",
   },
   {
     id: 245,
@@ -2693,7 +2693,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "  M-L-XL-XXL",
-    Categoria:"Remeras",
+    Categoria: "Remeras",
   },
   {
     id: 246,
@@ -2704,7 +2704,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "  M-L-XL-XXL",
-    Categoria:"Remeras",
+    Categoria: "Remeras",
   },
   {
     id: 247,
@@ -2715,7 +2715,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "  M-L-XL-XXL",
-    Categoria:"Remeras",
+    Categoria: "Remeras",
   },
   {
     id: 248,
@@ -2726,7 +2726,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "  M-L-XL-XXL",
-    Categoria:"Remeras",
+    Categoria: "Remeras",
   },
   {
     id: 249,
@@ -2737,7 +2737,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "  M-L-XL-XXL",
-    Categoria:"Remeras",
+    Categoria: "Remeras",
   },
   {
     id: 249,
@@ -2748,7 +2748,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "  M-L-XL-XXL",
-    Categoria:"Remeras",
+    Categoria: "Remeras",
   },
   {
     id: 250,
@@ -2759,7 +2759,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "  M-L-XL-XXL",
-    Categoria:"Remeras",
+    Categoria: "Remeras",
   },
   {
     id: 251,
@@ -2770,7 +2770,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "  M-L-XL-XXL",
-    Categoria:"Remeras",
+    Categoria: "Remeras",
   },
   {
     id: 252,
@@ -2781,7 +2781,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "  M-L-XL-XXL",
-    Categoria:"Remeras",
+    Categoria: "Remeras",
   },
   {
     id: 253,
@@ -2792,7 +2792,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "  M-L-XL-XXL",
-    Categoria:"Remeras",
+    Categoria: "Remeras",
   },
   {
     id: 254,
@@ -2803,7 +2803,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "  M-L-XL-XXL",
-    Categoria:"Remeras",
+    Categoria: "Remeras",
   },
   {
     id: 255,
@@ -2814,7 +2814,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "  M-L-XL-XXL",
-    Categoria:"Remeras",
+    Categoria: "Remeras",
   },
   {
     id: 256,
@@ -2825,7 +2825,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "  M-L-XL-XXL",
-    Categoria:"Remeras",
+    Categoria: "Remeras",
   },
   {
     id: 257,
@@ -2836,7 +2836,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "  M-L-XL-XXL",
-    Categoria:"Remeras",
+    Categoria: "Remeras",
   },
   // {
   //   id: 258,
@@ -2858,7 +2858,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "  M-L-XL-XXL",
-    Categoria:"Remeras",
+    Categoria: "Remeras",
   },
   {
     id: 260,
@@ -2869,7 +2869,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "  M-L-XL-XXL",
-    Categoria:"Remeras",
+    Categoria: "Remeras",
   },
   {
     id: 261,
@@ -2880,7 +2880,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "  M-L-XL-XXL",
-    Categoria:"Remeras",
+    Categoria: "Remeras",
   },
   {
     id: 262,
@@ -2891,7 +2891,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "  M-L-XL-XXL",
-    Categoria:"Remeras",
+    Categoria: "Remeras",
   },
   {
     id: 263,
@@ -2902,7 +2902,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "  M-L-XL-XXL",
-    Categoria:"Remeras",
+    Categoria: "Remeras",
   },
   {
     id: 264,
@@ -2913,7 +2913,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "  M-L-XL-XXL",
-    Categoria:"Remeras",
+    Categoria: "Remeras",
   },
   {
     id: 265,
@@ -2924,7 +2924,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "  M-L-XL-XXL",
-    Categoria:"Remeras",
+    Categoria: "Remeras",
   },
   {
     id: 266,
@@ -2935,7 +2935,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "  M-L-XL-XXL",
-    Categoria:"Remeras",
+    Categoria: "Remeras",
   },
   {
     id: 267,
@@ -2946,7 +2946,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "UNICAMENTE ENCARGUE SEÑA $2.000",
     Talle: "A partir del talle 36",
-    Categoria:"Calzados",
+    Categoria: "Calzados",
   },
   {
     id: 268,
@@ -2957,7 +2957,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "UNICAMENTE ENCARGUE SEÑA $2.000",
     Talle: "A partir del talle 36",
-    Categoria:"Calzados",
+    Categoria: "Calzados",
   },
   {
     id: 269,
@@ -2968,7 +2968,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "UNICAMENTE ENCARGUE SEÑA $2.000",
     Talle: "A partir del talle 36",
-    Categoria:"Calzados",
+    Categoria: "Calzados",
   },
   {
     id: 270,
@@ -2979,7 +2979,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "UNICAMENTE ENCARGUE SEÑA $2.000",
     Talle: "A partir del talle 36",
-    Categoria:"Calzados",
+    Categoria: "Calzados",
   },
   {
     id: 271,
@@ -2990,7 +2990,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "UNICAMENTE ENCARGUE SEÑA $2.000",
     Talle: "A partir del talle 36",
-    Categoria:"Calzados",
+    Categoria: "Calzados",
   },
   {
     id: 272,
@@ -3001,7 +3001,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "UNICAMENTE ENCARGUE SEÑA $2.000",
     Talle: "A partir del talle 36",
-    Categoria:"Calzados",
+    Categoria: "Calzados",
   },
   {
     id: 273,
@@ -3012,7 +3012,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "UNICAMENTE ENCARGUE SEÑA $2.000",
     Talle: "A partir del talle 36",
-    Categoria:"Calzados",
+    Categoria: "Calzados",
   },
   {
     id: 274,
@@ -3023,7 +3023,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "UNICAMENTE ENCARGUE SEÑA $2.000",
     Talle: "A partir del talle 36",
-    Categoria:"Calzados",
+    Categoria: "Calzados",
   },
   {
     id: 275,
@@ -3034,7 +3034,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "UNICAMENTE ENCARGUE SEÑA $2.000",
     Talle: "A partir del talle 36",
-    Categoria:"Calzados",
+    Categoria: "Calzados",
   },
   {
     id: 276,
@@ -3045,7 +3045,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "UNICAMENTE ENCARGUE SEÑA $2.000",
     Talle: "A partir del talle 36",
-    Categoria:"Calzados",
+    Categoria: "Calzados",
   },
   {
     id: 277,
@@ -3056,7 +3056,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "UNICAMENTE ENCARGUE SEÑA $2.000",
     Talle: "A partir del talle 36",
-    Categoria:"Calzados",
+    Categoria: "Calzados",
   },
   {
     id: 278,
@@ -3067,9 +3067,9 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "UNICAMENTE ENCARGUE SEÑA $2.000",
     Talle: "A partir del talle 36",
-    Categoria:"Calzados",
+    Categoria: "Calzados",
   },
-//COLOCAR NOMBRE PRECIO Y TALLE//
+  //COLOCAR NOMBRE PRECIO Y TALLE//
   {
     id: 279,
     Nombre: "Shorts Jordan v2",
@@ -3079,7 +3079,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "COLOCAR TALLE",
-    Categoria:"Shorts",
+    Categoria: "Shorts",
   },
   {
     id: 280,
@@ -3090,7 +3090,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "COLOCAR TALLE",
-    Categoria:"Shorts",
+    Categoria: "Shorts",
   },
   {
     id: 281,
@@ -3101,7 +3101,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "COLOCAR TALLE",
-    Categoria:"Shorts",
+    Categoria: "Shorts",
   },
   {
     id: 282,
@@ -3112,7 +3112,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "COLOCAR TALLE",
-    Categoria:"Shorts",
+    Categoria: "Shorts",
   },
   {
     id: 283,
@@ -3123,7 +3123,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "COLOCAR TALLE",
-    Categoria:"Shorts",
+    Categoria: "Shorts",
   },
 
   {
@@ -3135,7 +3135,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "8",
-    Categoria:"Conjuntos",
+    Categoria: "Conjuntos",
   },
   {
     id: 285,
@@ -3146,7 +3146,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "6",
-    Categoria:"Conjuntos",
+    Categoria: "Conjuntos",
   },
   {
     id: 286,
@@ -3157,7 +3157,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "COLOCAR TALLE",
-    Categoria:"Conjuntos",
+    Categoria: "Conjuntos",
   },
   //NikeChampiones y Converse
   {
@@ -3169,7 +3169,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "S-XXL",
-    Categoria:"Conjuntos",
+    Categoria: "Conjuntos",
   },
 
   {
@@ -3181,7 +3181,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "33-39",
-    Categoria:"Calzados",
+    Categoria: "Calzados",
   },
   {
     id: 289,
@@ -3192,7 +3192,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "33-39",
-    Categoria:"Calzados",
+    Categoria: "Calzados",
   },
   {
     id: 230,
@@ -3203,7 +3203,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "33-39",
-    Categoria:"Calzados",
+    Categoria: "Calzados",
   },
   {
     id: 231,
@@ -3214,7 +3214,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "33-39",
-    Categoria:"Calzados",
+    Categoria: "Calzados",
   },
   {
     id: 232,
@@ -3225,7 +3225,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "33-39",
-    Categoria:"Calzados",
+    Categoria: "Calzados",
   },
   {
     id: 233,
@@ -3236,7 +3236,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "33-39",
-    Categoria:"Calzados",
+    Categoria: "Calzados",
   },
   {
     id: 234,
@@ -3247,7 +3247,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "33-39",
-    Categoria:"Calzados",
+    Categoria: "Calzados",
   },
   {
     id: 235,
@@ -3258,9 +3258,8 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "",
     Talle: "33-39",
-    Categoria:"Calzados",
+    Categoria: "Calzados",
   },
-
 ];
 
 export default Datos;
