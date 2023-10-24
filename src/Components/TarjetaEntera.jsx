@@ -87,7 +87,7 @@ const TarjetaEntera = ({ infoRopa }) => {
         </p>
         <br />
         <p className="pComoComprar" style={{ textDecoration: "underLine" }}>
-          ¡GRACIAS!
+          GRACIAS!
         </p>
       </div>
     </div>
