@@ -3413,7 +3413,7 @@ export const Datos = [
     ColorSecundario: "",
     Detalle: "Consultar por short o remera",
     Talle: "Colocar talle",
-    Categoria: "Calzados",
+    Categoria: "Conjuntos",
   },
 ];
 
