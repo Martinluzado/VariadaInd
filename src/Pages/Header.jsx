@@ -21,18 +21,29 @@ function Header() {
         <nav id="nav" className={`main-nav ${isMenuOpen ? "show" : ""}`} onClick={handleWrapperClick}>
           <div className="nav-links">
             <div style={{marginTop:"10em"}}>
-            <p className="link-item" href="#">
+              <Link style={{textDecoration:"none"}} to={"/"}>
+            <p className="link-item">
+             Inicio
+            </p>
+            </Link>
+            <Link style={{textDecoration:"none"}} to={"/SobreNosotros"}>
+            <p className="link-item">
              Sobre nosotros
             </p>
-            <p className="link-item" href="#">
+            </Link>
+            <Link style={{textDecoration:"none"}} to={"/MetodosDeEnvios"}>
+            <p className="link-item">
               Metodos de envio
             </p>
-            <p className="link-item" href="#">
+            </Link>
+            <Link style={{textDecoration:"none"}} to={"/MetodosDePagos"}>
+            <p className="link-item">
               Metodos de pago
             </p>
+            </Link>
             </div>
             <br/>
-            <Link to={"/"}>
+            <Link style={{textDecoration:"none"}} to={"/"}>
         <img
         style={{borderBottom:"1px solid white"}}
           src="Images/Logo.png"
