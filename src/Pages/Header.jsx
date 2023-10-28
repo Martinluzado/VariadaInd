@@ -20,7 +20,7 @@ function Header() {
       <header className="main-header">
         <nav id="nav" className={`main-nav ${isMenuOpen ? "show" : ""}`} onClick={handleWrapperClick}>
           <div className="nav-links">
-            <div style={{marginTop:"10em"}}>
+            <div style={{marginTop:"5em"}}>
               <Link style={{textDecoration:"none"}} to={"/"}>
             <p className="link-item">
              Inicio

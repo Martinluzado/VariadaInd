@@ -124,7 +124,7 @@
   }
 
   .link-item {
-    margin-top: 2rem;
+    margin-top: 1rem;
     color: white;
     text-decoration: none;
     font-weight: lighter;
@@ -151,23 +151,19 @@
   }
 
   .button-menu {
-    width: 40px;
-    height: 40px;
-    margin-left: 15em;
     border: none;
     display: flex;
     background: none;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: end;
+    justify-content: end;
     cursor: pointer;
   }
 
   .button-menu span {
-    width: 37px;
+    width:30px;
     height: 4px;
     margin-bottom: 5px;
-    margin-left: 20em;
     position: relative;
     background: #5c6370;
     border-radius: 3px;
