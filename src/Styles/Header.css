@@ -1,64 +1,208 @@
-.HeaderGeneral {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
+.main-header {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.4rem;
+}
+.main-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  margin-left: -100%;
+  transition: all 0.2s linear;
+  z-index: 100;
 }
 
-.assideHeader {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.main-nav.show {
+  margin-left: 0;
+}
+.titulo{
+  height: 300px;
+}
+.nav-links {
+  background: rgba(0, 0, 0, 0.9);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 100%;
+  align-items: center;
+  justify-content: flex-start;
 }
 
-.bHeader {
-    text-align: left;
-    background: none;
-    border: none;
-    color: white;
-    font-size: 18px;
-    font-weight: lighter;
-    transition: 0.1s;
+.link-item {
+  margin-top: 2rem;
+  color: white;
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: larger;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.bHeader:hover {
-    color: rgb(255, 0, 0);
+.link-item::after {
+  position: absolute;
+  content: "";
+  background-color: rgb(255, 255, 255);
+  bottom: -5px;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  transition: 0.3s ease all;
 }
 
-.titulo {
-    width: 180px;
-    height: 210px;
+.link-item:hover::after {
+  width: 100%;
+}
+
+.button-menu {
+  width: 40px;
+  height: 40px;
+  border: none;
+  display: flex;
+  background: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button-menu span {
+  width: 37px;
+  height: 4px;
+  margin-bottom: 5px;
+  margin-left: 20em;
+  position: relative;
+  background: #5c6370;
+  border-radius: 3px;
+  transform-origin: 4px 0px;
+  transition: all 0.2s linear;
 }
 @media only screen and (max-width: 600px) {
-    .HeaderGeneral {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
+  .main-header {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.4rem;
+  }
+  .main-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    margin-left: -100%;
+    transition: all 0.2s linear;
+    z-index: 100;
+  }
+
+  .main-nav.show {
+    margin-left: 0;
+  }
+
+  .nav-links {
+    background: rgba(0, 0, 0, 0.9);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .link-item {
+    margin-top: 2rem;
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: larger;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .link-item::after {
+    position: absolute;
+    content: "";
+    background-color: rgb(255, 255, 255);
+    bottom: -5px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    transition: 0.3s ease all;
+  }
+
+  .link-item:hover::after {
+    width: 100%;
+  }
+
+  .button-menu {
+    width: 40px;
+    height: 40px;
+    margin-left: 15em;
+    border: none;
+    display: flex;
+    background: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .button-menu span {
+    width: 37px;
+    height: 4px;
+    margin-bottom: 5px;
+    margin-left: 20em;
+    position: relative;
+    background: #5c6370;
+    border-radius: 3px;
+    transform-origin: 4px 0px;
+    transition: all 0.2s linear;
+  }
+
+  @media screen and (min-width: 768px) {
+    .button-menu {
+      display: none;
     }
-    
-    .assideHeader {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+
+    .main-logo {
+      flex-basis: 30%;
     }
-    
-    .bHeader {
-        text-align: left;
-        background: none;
-        border: none;
-        color: rgb(255, 255, 255);
-        font-size: 18px;
-        font-weight: lighter;
-        transition: 0.1s;
+
+    .main-nav {
+      position: static;
+      margin-left: 0;
+      flex-basis: 70%;
+      height: 100%;
     }
-    
-    .bHeader:hover {
-        color: rgb(255, 0, 0);
+
+    .nav-links {
+      width: 100%;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-end;
     }
-    
-    .titulo {
-        width: 200px;
-        height: 230px;
+
+    .link-item {
+      display: inline-block;
+      margin-top: 0;
+      margin-right: 2rem;
     }
   }
+}

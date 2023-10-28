@@ -97,11 +97,11 @@ backdrop-filter: blur(5px);
         }
         .General {
             position: absolute;
-            top: 15.5rem;
+            top: 4.5rem;
             left: auto;
         }
         option{
-            background-color: black;
+            background-color: #5c6370;
             color: white;
         }
         #categoria{

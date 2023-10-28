@@ -1,57 +1,67 @@
-.PascalSearch {
-    width: 100%;
+.inputBox_container {
     display: flex;
-    justify-content: center;
     align-items: center;
-    text-align: center;
-    border: none;
-    font-size: large;
-}
-
-input {
-    width: 250px;
-    height: 25px;
-    border-radius: 5px;
-    border: none;
-    font-size: large;
-    align-items: center;
-    padding-bottom: 0.5%;
-    text-indent: 3%;
-}
-
-input::placeholder {
-    color: rgb(0, 0, 0);
-    font-size: small;
-    align-items: center;
-    border: none;
-}
+    flex-direction: row;
+    max-width: 14em;
+    width: fit-content;
+    height: fit-content;
+    background-color: #5c6370;
+    border-radius: 0.8em;
+    overflow: hidden;
+  }
+  
+  .search_icon {
+    height: 1em;
+    padding: 0 0.5em 0 0.8em;
+    fill: #abb2bf;
+  }
+  
+  .inputBox {
+    background-color: transparent;
+    color: #ffffff;
+    outline: none;
+    width: 100%;
+    border: 0;
+    padding: 0.5em 1.5em 0.5em 0;
+    font-size: 1em;
+  }
+  
+  ::placeholder {
+    color: #abb2bf;
+  }
 
 @media only screen and (max-width: 600px) {
-    .PascalSearch {
-        width: 100%;
+    .inputBox_container {
+      margin-left: 8px;
         display: flex;
-        justify-content: center;
         align-items: center;
-        text-align: center;
-        border: none;
-        font-size: large;
-    }
-    
-    input {
-        width: 200px;
-        height: 25px;
-        border-radius: 5px;
-        border: none;
-        font-size: large;
-        align-items: center;
-        padding-bottom: 0.5%;
-        text-indent: 3%;
-    }
-    
-    input::placeholder {
-        color: rgb(0, 0, 0);
-        font-size: small;
-        align-items: center;
-        border: none;
-    }
+        flex-direction: row;
+        max-width: 15em;
+        width: fit-content;
+        height: fit-content;
+        background-color: #5c6370;
+        border-radius: 0.8em;
+        overflow: hidden;
+        font-weight: lighter;
+      }
+      
+      .search_icon {
+        height: 1em;
+        padding: 0 0.5em 0 0.8em;
+        fill: white;
+      }
+      
+      .inputBox {
+        background-color: transparent;
+        color: white;
+        outline: none;
+        width: 100%;
+        border: 0;
+        padding: 0.5em 1.5em 0.5em 0;
+        font-size: 1em;
+      }
+      
+      ::placeholder {
+        color: white;
+      }
   }

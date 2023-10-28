@@ -61,6 +61,7 @@ function MiniTarjetas({ texto, infoRopa }) {
             id="categoria"
             onChange={(e) => setCategoriaSeleccionada(e.target.value)}
             value={categoriaSeleccionada}
+            style={{background:"#5c6370",color:"white"}}
           >
             {categorias.map((categoria) => (
               <option key={categoria} value={categoria}>

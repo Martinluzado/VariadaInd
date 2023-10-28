@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import {useParams } from "react-router-dom";
 import "../Styles/TarjetaEntera.css";
-import { BiHomeAlt2 } from "react-icons/bi";
-import { AiOutlineWhatsApp } from "react-icons/ai";
+import Headers from "../Pages/Header"
 
 const TarjetaEntera = ({ infoRopa }) => {
   const params = useParams();
@@ -18,6 +17,7 @@ const TarjetaEntera = ({ infoRopa }) => {
   };
   return (
     <div>
+        <Headers/>
       <div className="Back2">
         <div className="Tarjeta2" key={Productos.ID}>
           <p className="ID2">${Productos.Precio}</p>
@@ -59,35 +59,14 @@ const TarjetaEntera = ({ infoRopa }) => {
           </div>
         </div>
       </div>
-      <footer className="Footer2">
-        <Link to="/">
-          <button className="Flecha">
-            <BiHomeAlt2 />
-          </button>
-        </Link>
-        <button className="Flecha2">
-          <a
-            href="https://api.whatsapp.com/send?phone=598099662554&text=Hola, quiero consultar sobre el producto de item: "
-            style={{ textDecoration: "none", color: "white" }}
-          >
-            <AiOutlineWhatsApp />
-          </a>
-        </button>
-      </footer>
-      <br />
       <div className="comoComprar">
-        <h1 className="hComoComprar">Como comprar!</h1>
+        <h1 className="hComoComprar">Como comprar?</h1>
         <p className="pComoComprar">
-          Para poder comprar envianos un mensaje con el Item del producto, el
-          cual se encuentra en la parte superior derecha de la tarjeta del
-          producto.
+          Para comprar envianos un mensaje con el Item del producto, el
+          cual se encuentra en la parte superior derecha de la tarjeta.
         </p>
         <p className="pComoComprar">
-          Decir el talle deseado a comprar y la cantidad que se deseen comprar.
-        </p>
-        <br />
-        <p className="pComoComprar" style={{ textDecoration: "underLine" }}>
-          Gracias.
+          Decir el talle deseado a comprar y la cantidad que se desee.
         </p>
       </div>
     </div>
