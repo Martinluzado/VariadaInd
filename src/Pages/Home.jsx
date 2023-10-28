@@ -30,7 +30,7 @@ function Home() {
             class="inputBox"
             id="inputBox"
             type="text"
-            placeholder="Search For Products"
+            placeholder="Busca un producto"
             onChange={manejarInput}
           />
         </div>
