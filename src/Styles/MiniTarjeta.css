@@ -8,8 +8,11 @@ gap: 2%;
 }
 .General {
     position: absolute;
-    top: 15.5rem;
+    top:6.5rem;
     left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 option{
     background-color: black;
@@ -19,7 +22,6 @@ option{
     background-color:white;
     border: none;
     border-radius: 5px;
-    margin-left: 10px;
 }
 
 .Tarjeta {

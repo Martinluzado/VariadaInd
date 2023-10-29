@@ -44,7 +44,7 @@ function MiniTarjetas({ texto, infoRopa }) {
     "Perfumes",
     "Fitness",
     "Calzados",
-    "Musculosas"
+    "Musculosas",
   ]; // Define tus categorías aquí
 
   return (
@@ -61,7 +61,7 @@ function MiniTarjetas({ texto, infoRopa }) {
             id="categoria"
             onChange={(e) => setCategoriaSeleccionada(e.target.value)}
             value={categoriaSeleccionada}
-            style={{background:"#5c6370",color:"white"}}
+            style={{ background: "#5c6370", color: "white" }}
           >
             {categorias.map((categoria) => (
               <option key={categoria} value={categoria}>
@@ -71,62 +71,68 @@ function MiniTarjetas({ texto, infoRopa }) {
           </select>
         </div>
       </div>
-      {filtradosPorTexto.slice(0, productosAMostrar).map((Dato) => (
-        <Link style={{ textDecoration: "none" }} to={`/${Dato.Nombre}`}>
-          <div className="Tarjeta" key={Dato.ID}>
-            <p className="ID">${Dato.Precio}</p>
-            <img className="ImagenChica" src={Dato.Img} alt="" />
-            <div
-              style={{
-                textAlign: "left",
-                alignItems: "left",
-                marginLeft: "10px",
-              }}
-            >
-              <p className="nombre">{Dato.Nombre}</p>
-              {/* Mostrar el elemento "TALLES" solo si hay talles disponibles */}
-              {tallesDisponibles && (
-                <p className="genero2">TALLES : {Dato.Talle}</p>
-              )}
-
-              {Dato.Detalle ? (
-                <p
-                  className="genero"
-                  style={{ color: "red", fontWeight: "bolder" }}
-                >
-                  {Dato.Detalle}
-                </p>
-              ) : (
-                <br /> // Mostrar <br> si Dato.Detalle está vacío
-              )}
+      <div style={{display:"flex",justifyContent:"center",alignItems:"center",
+        flexWrap:"wrap", gap:"2em"}}>
+        {filtradosPorTexto.slice(0, productosAMostrar).map((Dato) => (
+          <Link style={{ textDecoration: "none" }} to={`/${Dato.Nombre}`}>
+            <div className="Tarjeta" key={Dato.ID}>
+              <p className="ID">${Dato.Precio}</p>
+              <img className="ImagenChica" src={Dato.Img} alt="" />
               <div
-                style={{ display: "flex", flexDirection: "row", gap: "5px" }}
+                style={{
+                  textAlign: "left",
+                  alignItems: "left",
+                  marginLeft: "10px",
+                }}
               >
+                <p className="nombre">{Dato.Nombre}</p>
+                {/* Mostrar el elemento "TALLES" solo si hay talles disponibles */}
+                {tallesDisponibles && (
+                  <p className="genero2">TALLES : {Dato.Talle}</p>
+                )}
+
+                {Dato.Detalle ? (
+                  <p
+                    className="genero"
+                    style={{ color: "red", fontWeight: "bolder" }}
+                  >
+                    {Dato.Detalle}
+                  </p>
+                ) : (
+                  <br /> // Mostrar <br> si Dato.Detalle está vacío
+                )}
                 <div
-                  className="colores1"
-                  style={{ backgroundColor: `${Dato.Color}` }}
-                ></div>
-                <div
-                  className="colores2"
-                  style={{ backgroundColor: `${Dato.ColorSecundario}` }}
-                ></div>
+                  style={{ display: "flex", flexDirection: "row", gap: "5px" }}
+                >
+                  <div
+                    className="colores1"
+                    style={{ backgroundColor: `${Dato.Color}` }}
+                  ></div>
+                  <div
+                    className="colores2"
+                    style={{ backgroundColor: `${Dato.ColorSecundario}` }}
+                  ></div>
+                </div>
               </div>
             </div>
-            
-          </div>
-        </Link>
-        
-      ))}
-       {/* Botón "Ver más productos" */}
-       {productosAMostrar < filtradosPorTexto.length && (
-        <button style={{
-          color:"white",
-          border:"none",
-          borderRadius:"10px",
-          backgroundColor:"red",
-          fontSize:"medium",
-          margin:"2.5%"
-        }} onClick={cargarMasProductos}>Ver más productos</button>
+          </Link>
+        ))}
+      </div>
+      {/* Botón "Ver más productos" */}
+      {productosAMostrar < filtradosPorTexto.length && (
+        <button
+          style={{
+            color: "white",
+            border: "none",
+            borderRadius: "10px",
+            backgroundColor: "red",
+            fontSize: "medium",
+            margin: "2.5%",
+          }}
+          onClick={cargarMasProductos}
+        >
+          Ver más productos
+        </button>
       )}
     </div>
   );
