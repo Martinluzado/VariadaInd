@@ -72,7 +72,7 @@ function MiniTarjetas({ texto, infoRopa }) {
         </div>
       </div>
       <div style={{display:"flex",justifyContent:"center",alignItems:"center",
-        flexWrap:"wrap", gap:"2em"}}>
+        flexWrap:"wrap", gap:"0.5em"}}>
         {filtradosPorTexto.slice(0, productosAMostrar).map((Dato) => (
           <Link style={{ textDecoration: "none" }} to={`/${Dato.Nombre}`}>
             <div className="Tarjeta" key={Dato.ID}>
