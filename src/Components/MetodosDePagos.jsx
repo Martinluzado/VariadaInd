@@ -1,34 +1,52 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import { BiHomeAlt2 } from "react-icons/bi";
-import '../Styles/EstilosInfo.css'
+import React from "react";
+import { Link } from "react-router-dom";
+import "../Styles/Estilos2.css";
 function MetodosDePagos() {
   return (
     <div>
-    <div className="Header2"
-      style={{
-        marginTop: "10%",
-      }}>
-    <Link to={"/"}>
-      <button className="Buttoninfo">
-        <BiHomeAlt2 />
-      </button>
-    </Link>
-    <h1 className="H1info">Pagos</h1>
+      <div
+        className="Header22"
+        style={{
+          marginTop: "10%",
+        }}
+      >
+        <h1 className="H1info2">Pagos</h1>
+      </div>
+      <div className="parrafo2">
+        <ul
+          className="Pinfo"
+          style={{
+            marginTop: "10%",
+          }}
+        >
+          <li className="Li12">Giros</li>
+          <li className="Li12">Transferencias</li>
+          <li className="Li12">Depósitos</li>
+          <li className="Li12">Efectivo</li>
+          <li className="Li12">Mercado Pago</li>
+          <Link to={"/"}>
+            <button className="Buttoninfo2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="1em"
+                height="1em"
+                viewBox="0 0 1024 1024"
+              >
+                <path
+                  fill="currentColor"
+                  d="M224 480h640a32 32 0 1 1 0 64H224a32 32 0 0 1 0-64z"
+                />
+                <path
+                  fill="currentColor"
+                  d="m237.248 512l265.408 265.344a32 32 0 0 1-45.312 45.312l-288-288a32 32 0 0 1 0-45.312l288-288a32 32 0 1 1 45.312 45.312L237.248 512z"
+                />
+              </svg>
+            </button>
+          </Link>
+        </ul>
+      </div>
     </div>
-<div className="parrafo"
-  >
-    <ul className="Pinfo" style={{
-    marginTop: "10%",
-  }}>
-      <li className="Li1">Giros</li>
-      <li className="Li1">Transferencias</li>
-      <li className="Li1">Depósitos</li>
-      <li className="Li1">Efectivo</li>
-    </ul>
-    </div>
-  </div>
-  )
+  );
 }
 
-export default MetodosDePagos
+export default MetodosDePagos;

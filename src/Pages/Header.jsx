@@ -46,7 +46,7 @@ function Header() {
             <Link style={{textDecoration:"none"}} to={"/"}>
         <img
         style={{borderBottom:"1px solid white"}}
-          src="Images/Logo.png"
+          src="Images/LogoNavidad.png"
           alt="Variada indumentaria logo"
           className="titulo"
         />

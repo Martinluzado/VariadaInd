@@ -1,0 +1,33 @@
+.Header2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Buttoninfo {
+    border-radius: 5px;
+    border: none;
+    font-size: xx-large;
+    color: white;
+    background-color: none;
+    background: none;
+    margin-left: 5em;
+  }
+  .H1info {
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+  }
+  .parrafo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 4em;
+  }
+  .Pinfo {
+    color: white;
+    font-size: x-large;
+    margin: 0;
+  }
+  

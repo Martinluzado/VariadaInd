@@ -118,7 +118,7 @@ function MiniTarjetas({ texto, infoRopa }) {
           </Link>
         ))}
       </div>
-      {/* Botón "Ver más productos" */}
+      {/* Botón "Ver más productos"
       {productosAMostrar < filtradosPorTexto.length && (
         <button
           style={{
@@ -133,9 +133,15 @@ function MiniTarjetas({ texto, infoRopa }) {
         >
           Ver más productos
         </button>
-      )}
+      )} */} {productosAMostrar < filtradosPorTexto.length && (
+      <div class="bg">
+      <div class="centerer">
+        <button class="button" onClick={cargarMasProductos}>Ver Mas</button>
+      </div>
+    </div>   )} 
     </div>
   );
 }
 
 export default MiniTarjetas;
+   
