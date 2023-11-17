@@ -25,6 +25,7 @@ function SobreNosotros() {
           precios sumamente competitivos.
         </p>
       </div>
+      <div className="CenterButton">
       <Link to={"/"}>
             <button className="Buttoninfo">
               <svg
@@ -44,6 +45,7 @@ function SobreNosotros() {
               </svg>
             </button>
           </Link>
+          </div>
     </div>
   );
 }

@@ -17,6 +17,7 @@ function MetodosDeEnvios() {
       El envío se realiza a partir de coordinar con el comprador.
     </p>
     </div>
+    <div className="CenterButton">
     <Link to={"/"}>
             <button className="Buttoninfo3">
               <svg
@@ -36,6 +37,7 @@ function MetodosDeEnvios() {
               </svg>
             </button>
           </Link>
+          </div>
   </div>
   )
 }

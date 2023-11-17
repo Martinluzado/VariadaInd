@@ -1,0 +1,33 @@
+.Buttoninfo {
+  border-radius: 5px;
+  border: none;
+  font-size: xx-large;
+  color: white;
+  background-color: none;
+  background: none;
+}
+.headerComprar{
+
+}
+.H1Comprar{
+text-align: center;
+color: white;
+font-weight: lighter;
+text-transform: uppercase;
+}
+.pComprar1{
+text-align: center;
+color: white;
+font-size: x-large;
+}
+.pComprar2{
+text-align: center;
+color: red;
+font-size: xx-large;
+}
+.pComprar3{
+  align-items: center;
+text-align: center;
+color: white;
+font-size: x-large;
+}

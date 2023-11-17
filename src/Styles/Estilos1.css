@@ -4,13 +4,17 @@
     justify-content: center;
   }
   .Buttoninfo {
-    border-radius: 5px;
-    border: none;
-    font-size: xx-large;
-    color: white;
-    background-color: none;
-    background: none;
-    margin-left: 5em;
+      border-radius: 5px;
+      border: none;
+      font-size: xx-large;
+      color: white;
+      background-color: red;
+      background: none;
+      margin: 0;
+  }
+  .CenterButton{
+    display: flex;
+    justify-content: center;
   }
   .H1info {
     font-size: 50px;

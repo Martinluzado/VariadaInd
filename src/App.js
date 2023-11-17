@@ -8,6 +8,7 @@ import MetodosDeEnvios from "./Components/MetodosDeEnvios";
 import TarjetaEntera from "./Components/TarjetaEntera";
 import ListaProductos from "./Data/Datos";
 import "./App.css";
+import ComoComprar from "./Components/ComoComprar";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/SobreNosotros" element={<SobreNosotros />} />
           <Route path="/MetodosDePagos" element={<MetodosDePagos />} />
           <Route path="/MetodosDeEnvios" element={<MetodosDeEnvios />} />
+          <Route path="/ComoComprar" element={<ComoComprar />} />
         </Routes>
       </BrowserRouter>
     </div>

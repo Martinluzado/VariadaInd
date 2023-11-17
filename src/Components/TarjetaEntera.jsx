@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {useParams } from "react-router-dom";
+import {Link, useParams } from "react-router-dom";
 import "../Styles/TarjetaEntera.css";
 import Headers from "../Pages/Header"
 
@@ -60,14 +60,11 @@ const TarjetaEntera = ({ infoRopa }) => {
         </div>
       </div>
       <div className="comoComprar">
-        <h1 className="hComoComprar">Como comprar?</h1>
-        <p className="pComoComprar">
-          Para comprar envianos un mensaje con el Item del producto, el
-          cual se encuentra en la parte superior derecha de la tarjeta.
-        </p>
-        <p className="pComoComprar">
-          Decir el talle deseado a comprar y la cantidad que se desee.
-        </p>
+        <Link to={"/ComoComprar"}>
+      <button className="Comocomprar">
+    Como comprar?
+      </button>
+      </Link>
       </div>
     </div>
   );
