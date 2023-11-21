@@ -6,7 +6,9 @@ function ComoComprar() {
     <div>
       <h1 className="H1Comprar">Como Comprar</h1>
       <p className="pComprar1">Para comprar solamente debes decirnos la cantidad,talle e</p>
-      <p className="pComprar2">ITEM</p>
+      <div style={{display:"flex", justifyContent:"center"}}>
+      <button className="pComprar2">ITEM</button>
+      </div>
       <p className="pComprar3">del producto que desee</p>
         <header className="headerComprar">
       <img className="IMGCOMPRAR" src="Images/Comocomprar.jpg" alt="COMOCOMPRAR" />

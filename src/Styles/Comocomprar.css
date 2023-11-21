@@ -24,11 +24,15 @@ text-transform: uppercase;
 .pComprar1{
 text-align: center;
 color: white;
-font-size: x-large;padding: 1em;
+font-size: x-large;
+padding-left: 0.5em;
+padding-right: 0.5em;
 }
 .pComprar2{
-text-align: center;
-color: red;
+justify-items: center;
+color: white;
+background-color: red;
+border: none;
 font-size: xx-large;
 }
 .pComprar3{
