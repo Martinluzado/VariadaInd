@@ -1,15 +1,16 @@
 .messageDiv {
 background-image:url(../../public/Images/Navidad.jpg);
 background-size: cover;
-position: absolute;
+position:fixed;
 z-index: 1;
 display: flex;
 justify-content: center;
 align-items: center;
 align-items: center;
-width: 100%;
+width: 95%;
 height: auto;
 flex-wrap: wrap;
+margin-left: 2.5%;
 }
 
 .pmessage {
