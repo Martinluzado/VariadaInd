@@ -4,7 +4,7 @@ const Message = ({ onClose }) => {
   return (
     <div className="messageDiv">
       <div style={{margin:"0"}}>
-        <h1 className="pmessage">Variada Indumentaria les deseea Felices Fiestas y prospero Año Nuevo!</h1>
+        <h1 className="pmessage">Variada Indumentaria les desea Felices Fiestas y prospero Año Nuevo!</h1>
       </div>
       <div style={{margin:"0"}}>
         <button onClick={onClose} className="closeButton">
