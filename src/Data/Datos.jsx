@@ -4612,7 +4612,7 @@ export const Datos = [
 {
   id: 418,
   Nombre: "polo blue edt",
-  Precio: "289",
+  Precio: "2890",
   Img: "/Images/36.jpg",
   Color: "",
   ColorSecundario: "",
@@ -5095,7 +5095,7 @@ export const Datos = [
 },
 {
   id: 462,
-  Nombre: "amor amor",
+  Nombre: "amor amor v1",
   Precio: "3380 ",
   Img: "/Images/79.jpg",
   Color: "",
@@ -5106,7 +5106,7 @@ export const Datos = [
 },
 {
   id: 462,
-  Nombre: "amor amor",
+  Nombre: "amor amor v2",
   Precio: "2020 ",
   Img: "/Images/80.jpg",
   Color: "",
@@ -5337,7 +5337,7 @@ export const Datos = [
 },
 {
   id: 483,
-  Nombre: "good gril ",
+  Nombre: "good girl v1",
   Precio: "3940",
   Img: "/Images/101.jpg",
   Color: "",
@@ -5348,7 +5348,7 @@ export const Datos = [
 },
 {
   id: 484,
-  Nombre: "good gril ",
+  Nombre: "good girl v2",
   Precio: "5190",
   Img: "/Images/102.jpg",
   Color: "",
@@ -5359,7 +5359,7 @@ export const Datos = [
 },
 {
   id: 485,
-  Nombre: "good gril ",
+  Nombre: "good girl v3",
   Precio: "3595",
   Img: "/Images/103.jpg",
   Color: "",

@@ -1,6 +1,6 @@
 // App.js
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from "./Pages/Home";
 import SobreNosotros from "./Components/SobreNosotros";
 import MetodosDePagos from "./Components/MetodosDePagos";
@@ -9,11 +9,13 @@ import TarjetaEntera from "./Components/TarjetaEntera";
 import ListaProductos from "./Data/Datos";
 import "./App.css";
 import ComoComprar from "./Components/ComoComprar";
+import ScrollReverse from "./scrollReverser/ScrollReverser";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+          <ScrollReverse />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route
