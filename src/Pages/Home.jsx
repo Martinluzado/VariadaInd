@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Header from "./Header";
 import { Datos } from "../Data/Datos";
 import MiniTarjetas from "../Components/MiniTarjetas";
+import Message from "../Message/Message";
 import "../Styles/Home.css";
 
 function Home() {
@@ -9,6 +10,10 @@ function Home() {
   const [texto, setTexto] = useState("");
   const manejarInput = (e) => {
     setTexto(e.target.value);
+  };
+  const [showMessage, setShowMessage] = useState(true);
+  const closeMessage = () => {
+    setShowMessage(false);
   };
   return (
     <div>
@@ -35,6 +40,9 @@ function Home() {
           />
         </div>
       </nav>
+      <div>
+      {showMessage && <Message onClose={closeMessage} />}
+      </div>
       <div>
         <MiniTarjetas texto={texto} infoRopa={infoRopa} />
       </div>
