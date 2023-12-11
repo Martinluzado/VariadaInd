@@ -72,7 +72,7 @@ function MiniTarjetas({ texto, infoRopa }) {
           </select>
         </div>
       </div>
-          <p style={{color:"white",marginBottom:"2em",width:"100%", textAlign:"center"}}>Por favor selecciona que deseeas ver</p>
+          <p style={{color:"white",marginBottom:"2em",marginTop:"10px",width:"100%", textAlign:"center"}}>Por favor selecciona que deseeas ver</p>
       <div
         style={{
           display: "flex",

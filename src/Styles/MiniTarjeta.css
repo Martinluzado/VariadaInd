@@ -67,7 +67,7 @@ backdrop-filter: blur(5px);
     border-top-right-radius: 0px;
 }
 .ID{
-    position: fixed;
+    position: absolute;
     width: auto;
     margin: 2%;
     font-size: large;
