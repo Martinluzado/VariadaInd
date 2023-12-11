@@ -1,23 +1,19 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../Styles/MiniTarjeta.css";
 import Datos from "../Data/Datos";
 
 function MiniTarjetas({ texto, infoRopa }) {
+  const storedCategoria = localStorage.getItem("categoriaSeleccionada");
   const [categoriaSeleccionada, setCategoriaSeleccionada] = useState(
-    "Seleccionar Categoria"
+    storedCategoria || "Todo"
   );
-  const [productosAMostrar, setProductosAMostrar] = useState(10); // Cambia este valor según tus necesidades
-  const cargarMasProductos = () => {
-    // Aumenta la cantidad de productos a mostrar
-    setProductosAMostrar(productosAMostrar + 10);
-  };
 
   const string = texto;
   let regex = new RegExp(string, "gi");
 
   let filtradosPorCategoria =
-    categoriaSeleccionada === "Seleccionar Categoria"
+    categoriaSeleccionada === "Todo"
       ? infoRopa
       : infoRopa.filter((Dato) => Dato.Categoria === categoriaSeleccionada);
 
@@ -32,7 +28,7 @@ function MiniTarjetas({ texto, infoRopa }) {
   filtradosPorTexto.sort((a, b) => a.Precio - b.Precio);
 
   const categorias = [
-    "Seleccionar Categoria",
+    "Todo",
     "Remeras",
     "Pantalones",
     "Shorts",
@@ -46,6 +42,11 @@ function MiniTarjetas({ texto, infoRopa }) {
     "Calzados",
     "Musculosas",
   ]; // Define tus categorías aquí
+
+  useEffect(() => {
+    // Guardar la categoría seleccionada en localStorage
+    localStorage.setItem("categoriaSeleccionada", categoriaSeleccionada);
+  }, [categoriaSeleccionada]);
 
   return (
     <div className="Back">
@@ -61,7 +62,7 @@ function MiniTarjetas({ texto, infoRopa }) {
             id="categoria"
             onChange={(e) => setCategoriaSeleccionada(e.target.value)}
             value={categoriaSeleccionada}
-            style={{ background: "#5c6370", color: "white" }}
+            style={{ background: "#5c6370", color: "white", marginTop:"20px"}}
           >
             {categorias.map((categoria) => (
               <option key={categoria} value={categoria}>
@@ -71,11 +72,23 @@ function MiniTarjetas({ texto, infoRopa }) {
           </select>
         </div>
       </div>
-      <div style={{display:"flex",justifyContent:"center",alignItems:"center",
-        flexWrap:"wrap", gap:"0.5em"}}>
-        {filtradosPorTexto.slice(0, productosAMostrar).map((Dato) => (
-          <Link style={{ textDecoration: "none" }} to={`/${Dato.Nombre}`}>
-            <div className="Tarjeta" key={Dato.ID}>
+          <p style={{color:"white",marginBottom:"2em",width:"100%", textAlign:"center"}}>Por favor selecciona que deseeas ver</p>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          flexWrap: "wrap",
+          gap: "0.5em",
+        }}
+      >
+        {filtradosPorTexto.map((Dato) => (
+          <Link
+            key={Dato.ID}
+            style={{ textDecoration: "none" }}
+            to={`/${Dato.Nombre}`}
+          >
+            <div className="Tarjeta">
               <p className="ID">${Dato.Precio}</p>
               <img className="ImagenChica" src={Dato.Img} alt="" />
               <div
@@ -110,7 +123,9 @@ function MiniTarjetas({ texto, infoRopa }) {
                   ></div>
                   <div
                     className="colores2"
-                    style={{ backgroundColor: `${Dato.ColorSecundario}` }}
+                    style={{
+                      backgroundColor: `${Dato.ColorSecundario}`,
+                    }}
                   ></div>
                 </div>
               </div>
@@ -118,30 +133,8 @@ function MiniTarjetas({ texto, infoRopa }) {
           </Link>
         ))}
       </div>
-      {/* Botón "Ver más productos"
-      {productosAMostrar < filtradosPorTexto.length && (
-        <button
-          style={{
-            color: "white",
-            border: "none",
-            borderRadius: "10px",
-            backgroundColor: "red",
-            fontSize: "medium",
-            margin: "2.5%",
-          }}
-          onClick={cargarMasProductos}
-        >
-          Ver más productos
-        </button>
-      )} */} {productosAMostrar < filtradosPorTexto.length && (
-      <div class="bg">
-      <div class="centerer">
-        <button class="button" onClick={cargarMasProductos}>Ver Mas</button>
-      </div>
-    </div>   )} 
     </div>
   );
 }
 
 export default MiniTarjetas;
-   
