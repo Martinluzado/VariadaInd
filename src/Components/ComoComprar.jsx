@@ -4,7 +4,6 @@ import "../Styles/Comocomprar.css";
 function ComoComprar() {
   return (
     <div>
-      <h1 className="H1Comprar">Como Comprar</h1>
       <p className="pComprar1">Para comprar solamente debes decirnos la cantidad,talle e</p>
       <div style={{display:"flex", justifyContent:"center"}}>
       <button className="pComprar2">ITEM</button>
