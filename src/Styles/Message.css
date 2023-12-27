@@ -1,6 +1,5 @@
 .messageDiv {
-background-image:url(../../public/Images/Navidad.jpg);
-background-size: cover;
+background-color: black;
 position:fixed;
 z-index: 1;
 display: flex;
@@ -15,7 +14,8 @@ margin-left: 2.5%;
 
 .pmessage {
     padding: 1em;
-    font-weight: bold;
+    font-weight:lighter;
+    font-size: small;
     text-align: center;
     margin-bottom: 0;
     color: white;
@@ -25,6 +25,6 @@ margin-left: 2.5%;
     background: none;
     border: none;
     margin: 0;
-    font-size: x-large;
+    font-size: large;
     color: white;
 }
